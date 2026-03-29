@@ -28,15 +28,19 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# variables globales
+# =========================
+# VARIABLES GLOBALES
+# =========================
+
 toutes_recettes = []
-model = None
-client = None
-collection = None
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 RECETTES_PATH = os.path.join(BASE_DIR, "data", "recettes.json")
 
+
+# =========================
+# STARTUP LEGER
+# =========================
 
 @app.on_event("startup")
 def startup_event():
@@ -50,14 +54,286 @@ def startup_event():
         print("Recettes chargées ✅")
     except Exception as e:
         print("Erreur chargement recettes:", e)
+        toutes_recettes = []
 
-    print("Startup terminé ")
+    print("Startup terminé 🚀")
 
 
-@app.get("/")
-def home():
-    return {"status": "Chatbot cuisine en ligne !"}
+# =========================
+# OUTILS LANGUE / TEXTE
+# =========================
 
+def contains_arabic(text: str) -> bool:
+    return any('\u0600' <= c <= '\u06FF' for c in str(text))
+
+
+def normaliser_texte(txt):
+    return str(txt).strip().lower()
+
+
+def traduire_ingredient(nom, langue="fr"):
+    nom_lower = normaliser_texte(nom)
+
+    if nom_lower in INGREDIENT_TRANSLATIONS:
+        if langue == "ar":
+            return INGREDIENT_TRANSLATIONS[nom_lower]["ar"]
+        if langue == "en":
+            return INGREDIENT_TRANSLATIONS[nom_lower]["en"]
+
+    return nom
+
+
+def traduire_unite(unite, langue="fr"):
+    unite = str(unite).strip()
+
+    if unite in UNIT_TRANSLATIONS:
+        if langue == "ar":
+            return UNIT_TRANSLATIONS[unite]["ar"]
+        if langue == "en":
+            return UNIT_TRANSLATIONS[unite]["en"]
+
+    return unite
+
+
+def traduire_etape_fr_vers_ar(etape: str) -> str:
+    texte = str(etape).strip().lower()
+    replacements = sorted(
+        STEP_TRANSLATIONS_FR_AR.items(),
+        key=lambda x: len(x[0]),
+        reverse=True
+    )
+
+    for fr, ar in replacements:
+        texte = texte.replace(fr.lower(), ar)
+
+    texte = texte.replace("  ", " ").strip()
+
+    if not texte.endswith("."):
+        texte += "."
+
+    return texte
+
+
+# =========================
+# OUTILS RECETTES
+# =========================
+
+def extraire_ingredients(recette):
+    if "ingredients_simple" in recette:
+        return recette["ingredients_simple"]
+
+    return [
+        ing["nom"] if isinstance(ing, dict) else ing
+        for ing in recette.get("ingredients", [])
+    ]
+
+
+def ingredient_match(ingredient_recette, ingredient_dispo):
+    a = normaliser_texte(ingredient_recette)
+    b = normaliser_texte(ingredient_dispo)
+    return a in b or b in a
+
+
+def calculer_score(recette, ingredients_dispo):
+    ingredients_recette = extraire_ingredients(recette)
+
+    if not ingredients_recette:
+        return 0, [], []
+
+    disponibles = []
+    manquants = []
+
+    ingredients_recette_normalises = [normaliser_tounsi(x) for x in ingredients_recette]
+
+    for i, ing in enumerate(ingredients_recette_normalises):
+        trouve = any(ingredient_match(ing, dispo) for dispo in ingredients_dispo)
+        if trouve:
+            disponibles.append(ingredients_recette[i])
+        else:
+            manquants.append(ingredients_recette[i])
+
+    score = int((len(disponibles) / len(ingredients_recette)) * 100)
+    return score, disponibles, manquants
+
+
+def trouver_recette_par_nom(message):
+    msg = normaliser_tounsi(message)
+
+    for r in toutes_recettes:
+        noms = [
+            r.get("name", {}).get("fr", ""),
+            r.get("name", {}).get("en", ""),
+            r.get("name", {}).get("ar", "")
+        ]
+
+        aliases = r.get("aliases", [])
+        candidats = noms + aliases
+
+        for nom in candidats:
+            if nom and normaliser_tounsi(nom) in msg:
+                return r
+
+    return None
+
+
+# =========================
+# FORMATAGE
+# =========================
+
+def formatter_element_ingredient(ing, langue):
+    if isinstance(ing, dict):
+        quantite = str(ing.get("quantite", "")).strip()
+        unite = traduire_unite(ing.get("unite", ""), langue)
+        nom = traduire_ingredient(ing.get("nom", ""), langue)
+
+        parts = [p for p in [quantite, unite, nom] if p]
+        return " ".join(parts)
+
+    return traduire_ingredient(ing, langue)
+
+
+def formatter_liste_ingredients(noms, langue):
+    labels = UI_LABELS.get(langue, UI_LABELS["fr"])
+
+    if not noms:
+        return labels["none"]
+
+    return ", ".join([traduire_ingredient(x, langue) for x in noms])
+
+
+def formatter_ingredients_complets(recette, langue):
+    ingredients = recette.get("ingredients", [])
+    labels = UI_LABELS.get(langue, UI_LABELS["fr"])
+
+    if not ingredients:
+        return labels["none"]
+
+    lignes = []
+    for ing in ingredients:
+        lignes.append(f"- {formatter_element_ingredient(ing, langue)}")
+
+    return "\n".join(lignes)
+
+
+def get_steps_by_language(recette, langue):
+    steps = recette.get("steps", {})
+
+    if langue == "ar":
+        ar_steps = steps.get("ar", [])
+        if ar_steps and not all(str(s).startswith("الخطوة") for s in ar_steps):
+            return ar_steps
+
+        fr_steps = steps.get("fr", [])
+        if fr_steps:
+            return [traduire_etape_fr_vers_ar(step) for step in fr_steps]
+
+        return []
+
+    if langue == "en":
+        en_steps = steps.get("en", [])
+        if en_steps and not all(str(s).lower().startswith("step") for s in en_steps):
+            return en_steps
+
+        return steps.get("fr", [])
+
+    return steps.get("fr", [])
+
+
+def formater_reponse_recette_precise(recette, score, disponibles, manquants, langue):
+    labels = UI_LABELS.get(langue, UI_LABELS["fr"])
+    nom = recette["name"].get(langue, recette["name"].get("fr", "Recette"))
+    etapes = get_steps_by_language(recette, langue)
+    temps_prep = recette.get("temps_prep", "?")
+    temps_cuisson = recette.get("temps_cuisson", "?")
+
+    lines = [
+        f"✅ **{nom}**",
+        f"📊 **{labels['availability']}:** {score}%",
+        f"⏱️ **{labels['prep']}:** {temps_prep} دقيقة | **{labels['cook']}:** {temps_cuisson} دقيقة" if langue == "ar"
+        else f"⏱️ **{labels['prep']}:** {temps_prep} min | **{labels['cook']}:** {temps_cuisson} min",
+        "",
+        f"📋 **{labels['available']}:**",
+        formatter_liste_ingredients(disponibles, langue),
+        "",
+        f"🛒 **{labels['missing']}:**",
+        formatter_liste_ingredients(manquants, langue) if manquants else labels["no_missing"],
+        "",
+        f"🥘 **{labels['all_ingredients']}:**",
+        formatter_ingredients_complets(recette, langue),
+        "",
+        f"👨‍🍳 **{labels['steps']}:**"
+    ]
+
+    for i, e in enumerate(etapes, 1):
+        lines.append(f"{i}. {e}")
+
+    return "\n".join(lines)
+
+
+def formater_reponse_generale(recettes_scorees, langue, intention):
+    recettes_a_afficher = recettes_scorees[:3]
+
+    if langue == "ar":
+        if intention == "light":
+            intro = "بالمكونات المتوفرة لديك، هذه أفضل الوصفات الخفيفة:"
+        elif intention == "healthy":
+            intro = "بالمكونات المتوفرة لديك، هذه أفضل الوصفات الصحية:"
+        elif intention == "rapide":
+            intro = "بالمكونات المتوفرة لديك، هذه أفضل الوصفات السريعة:"
+        else:
+            intro = "بالمكونات المتوفرة لديك، هذه أفضل الوصفات الممكنة:"
+    elif langue == "en":
+        if intention == "light":
+            intro = "With your ingredients, here are the best light recipes:"
+        elif intention == "healthy":
+            intro = "With your ingredients, here are the best healthy recipes:"
+        elif intention == "rapide":
+            intro = "With your ingredients, here are the best quick recipes:"
+        else:
+            intro = "With your ingredients, here are the best possible recipes:"
+    else:
+        if intention == "light":
+            intro = "Avec les ingrédients disponibles, voici les meilleures recettes légères :"
+        elif intention == "healthy":
+            intro = "Avec les ingrédients disponibles, voici les meilleures recettes healthy :"
+        elif intention == "rapide":
+            intro = "Avec les ingrédients disponibles, voici les meilleures recettes rapides :"
+        else:
+            intro = "Avec les ingrédients disponibles, voici les meilleures recettes possibles :"
+
+    parties = [intro, ""]
+
+    for recette, score, disponibles, manquants in recettes_a_afficher:
+        nom = recette["name"].get(langue, recette["name"].get("fr", "Recette"))
+
+        if langue == "ar":
+            parties += [
+                f"✅ **{nom}** — {score}%",
+                f"📋 **المتوفر:** {formatter_liste_ingredients(disponibles, langue)}",
+                f"🛒 **الناقص:** {formatter_liste_ingredients(manquants, langue)}",
+                ""
+            ]
+        elif langue == "en":
+            parties += [
+                f"✅ **{nom}** — {score}%",
+                f"📋 **Available:** {formatter_liste_ingredients(disponibles, langue)}",
+                f"🛒 **Missing:** {formatter_liste_ingredients(manquants, langue)}",
+                ""
+            ]
+        else:
+            parties += [
+                f"✅ **{nom}** — {score}%",
+                f"📋 **Disponibles :** {formatter_liste_ingredients(disponibles, langue)}",
+                f"🛒 **Manquants :** {formatter_liste_ingredients(manquants, langue)}",
+                ""
+            ]
+
+    return "\n".join(parties), recettes_a_afficher
+
+
+# =========================
+# MODELE DE REQUETE
+# =========================
 
 class MessageRequest(BaseModel):
     message: str
@@ -65,9 +341,32 @@ class MessageRequest(BaseModel):
     ingredients_placard: list[str] = []
 
 
+# =========================
+# ROUTES
+# =========================
+
+@app.get("/")
+def home():
+    return {"status": "Chatbot cuisine en ligne !"}
+
+
+@app.get("/recettes")
+def liste_recettes():
+    return {"recettes": toutes_recettes}
+
+
 @app.post("/chat")
 def chat(req: MessageRequest):
     global toutes_recettes
+
+    if not toutes_recettes:
+        return {
+            "reponse": "Les recettes ne sont pas encore chargées.",
+            "langue": "fr",
+            "mode": "erreur",
+            "recettes_trouvees": [],
+            "liste_courses": []
+        }
 
     tous_ingredients = req.ingredients_frigo + req.ingredients_placard
     ingredients_normalises = [normaliser_tounsi(x) for x in tous_ingredients]
@@ -84,7 +383,7 @@ def chat(req: MessageRequest):
     if langue not in ["fr", "en", "ar"]:
         langue = "fr"
 
-    # 1) vérifier si l'utilisateur demande une recette précise
+    # 1) recette précise
     recette_demandee = trouver_recette_par_nom(message_normalise)
 
     if recette_demandee:
@@ -106,30 +405,27 @@ def chat(req: MessageRequest):
             "liste_courses": [traduire_ingredient(x, langue) for x in manquants]
         }
 
-    # 2) analyser intention
+    # 2) intention
     intention = analyser_intention(message_normalise)
 
-    # 3) filtrer recettes selon intention
+    # 3) filtre
     recettes_filtrees = filtrer_par_intention(toutes_recettes, intention)
 
-    # 4) si healthy ou light, on peut filtrer aussi par calories
     if intention in ["light", "healthy"]:
         recettes_filtrees = filtrer_par_calories(recettes_filtrees, 400)
 
-    # sécurité
     if not recettes_filtrees:
         recettes_filtrees = toutes_recettes
 
-    # 5) calculer score sur toutes les recettes filtrées
+    # 4) score
     recettes_scorees = []
 
     for recette in recettes_filtrees:
         score, disponibles, manquants = calculer_score(recette, ingredients_normalises)
-
         if score > 0:
             recettes_scorees.append((recette, score, disponibles, manquants))
 
-    # 6) si aucune recette trouvée
+    # 5) aucun résultat
     if not recettes_scorees:
         labels = UI_LABELS.get(langue, UI_LABELS["fr"])
         return {
@@ -140,17 +436,17 @@ def chat(req: MessageRequest):
             "liste_courses": []
         }
 
-    # 7) trier par score décroissant
+    # 6) tri
     recettes_scorees.sort(key=lambda x: x[1], reverse=True)
 
-    # 8) formater la réponse
+    # 7) réponse
     reponse, recettes_a_afficher = formater_reponse_generale(
         recettes_scorees,
         langue,
         intention
     )
 
-    # 9) construire la liste de courses globale
+    # 8) liste de courses globale
     tous_manquants = []
     for _, _, _, manquants in recettes_a_afficher:
         for ing in manquants:
