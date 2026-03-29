@@ -1,0 +1,7319 @@
+[
+  {
+    "id": "couscous_tunisien",
+    "name": {
+      "fr": "Couscous tunisien",
+      "en": "Tunisian Couscous",
+      "ar": "كسكسي"
+    },
+    "aliases": [
+      "couscous",
+      "kasksi",
+      "كسكسي"
+    ],
+    "ingredients": [
+      {
+        "nom": "semoule",
+        "quantite": 500,
+        "unite": "g"
+      },
+      {
+        "nom": "poulet",
+        "quantite": 1,
+        "unite": "kg"
+      },
+      {
+        "nom": "pois chiches",
+        "quantite": 200,
+        "unite": "g"
+      },
+      {
+        "nom": "carottes",
+        "quantite": 3,
+        "unite": ""
+      },
+      {
+        "nom": "pommes de terre",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "tomate concentrée",
+        "quantite": 1,
+        "unite": "c.à.s"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 3,
+        "unite": "c.à.s"
+      },
+      {
+        "nom": "sel",
+        "quantite": 1,
+        "unite": "c.à.c"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Faire revenir l’oignon dans l’huile.",
+        "Ajouter le poulet et le faire dorer.",
+        "Ajouter la tomate concentrée puis les pois chiches et les légumes.",
+        "Couvrir d’eau et laisser cuire jusqu’à tendreté.",
+        "Cuire la semoule à la vapeur puis servir avec la sauce."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "اقلي البصل في الزيت.",
+        "أضيفي الدجاج واتركيه يتحمر قليلاً.",
+        "أضيفي الطماطم المركزة ثم الفاصوليا والخضروات.",
+        "غطي الماء واتركيه يطبخ حتى ينضج.",
+        "اطبخ الكسكس على البخار ثم قدمي مع الصلصة."
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "familial"
+    ],
+    "nutrition": {
+      "calories": 620,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "moyen",
+    "temps_prep": 20,
+    "temps_cuisson": 60
+  },
+  {
+    "id": "chakchouka",
+    "name": {
+      "fr": "Chakchouka",
+      "en": "Shakshouka",
+      "ar": "شكشوكة"
+    },
+    "aliases": [
+      "chakchouka",
+      "shakshouka",
+      "شكشوكة"
+    ],
+    "ingredients": [
+      {
+        "nom": "tomates",
+        "quantite": 4,
+        "unite": ""
+      },
+      {
+        "nom": "poivrons",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oeufs",
+        "quantite": 4,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      },
+      {
+        "nom": "sel",
+        "quantite": 1,
+        "unite": "c.à.c"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les tomates et les poivrons.",
+        "Faire revenir l’ail et les poivrons dans l’huile.",
+        "Ajouter les œufs et cuire doucement.",
+        "Casser les œufs par-dessus et cuire doucement.",
+        "Servir chaud avec du pain."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "تقطيع الطماطم والفلفل.",
+        "تحمير الثوم والفلفل في الزيت.",
+        "أضيفي البيض واطهي على نار هادئة.",
+        "كسر البيض في الأعلى واطهي على نار هادئة.",
+        "قدمي ساخنا مع الخبز."
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "rapide",
+      "oeufs"
+    ],
+    "nutrition": {
+      "calories": 280,
+      "healthy": true,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "brik_thon",
+    "name": {
+      "fr": "Brik au thon",
+      "en": "Tuna Brik",
+      "ar": "بريك بالتونة"
+    },
+    "aliases": [
+      "brik",
+      "brik thon",
+      "بريك"
+    ],
+    "ingredients": [
+      {
+        "nom": "feuille de brik",
+        "quantite": 4,
+        "unite": ""
+      },
+      {
+        "nom": "thon",
+        "quantite": 1,
+        "unite": "boîte"
+      },
+      {
+        "nom": "oeufs",
+        "quantite": 4,
+        "unite": ""
+      },
+      {
+        "nom": "câpres",
+        "quantite": 1,
+        "unite": "c.à.s"
+      },
+      {
+        "nom": "persil",
+        "quantite": 1,
+        "unite": "bouquet"
+      },
+      {
+        "nom": "huile",
+        "quantite": 300,
+        "unite": "ml"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Déposer un peu de thon et de persil sur une feuille de brik.",
+        "Ajouter les câpres puis casser un œuf au centre.",
+        "Plier la feuille en demi-lune.",
+        "Frire rapidement dans l’huile chaude.",
+        "Égoutter et servir aussitôt."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "ضعي قليلا من التونة والبقدونس على ورقة من البريك.",
+        "أضيفي الكبر واكسري بيضة في الوسط.",
+        "اقلي الورقة نصف قمر.",
+        "اقلي بسرعة في الزيت الساخن.",
+        "إفرغي وخدمي على الفور."
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "entrée",
+      "street_food"
+    ],
+    "nutrition": {
+      "calories": 410,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "moyen",
+    "temps_prep": 10,
+    "temps_cuisson": 5
+  },
+  {
+    "id": "lablabi",
+    "name": {
+      "fr": "Lablabi",
+      "en": "Lablabi",
+      "ar": "لبلابي"
+    },
+    "aliases": [
+      "lablabi",
+      "لبلابي"
+    ],
+    "ingredients": [
+      {
+        "nom": "pois chiches",
+        "quantite": 400,
+        "unite": "g"
+      },
+      {
+        "nom": "ail",
+        "quantite": 4,
+        "unite": "gousses"
+      },
+      {
+        "nom": "cumin",
+        "quantite": 2,
+        "unite": "c.à.c"
+      },
+      {
+        "nom": "harissa",
+        "quantite": 1,
+        "unite": "c.à.s"
+      },
+      {
+        "nom": "pain rassis",
+        "quantite": 200,
+        "unite": "g"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Faire tremper puis cuire les pois chiches jusqu’à ce qu’ils soient tendres.",
+        "Préparer un bouillon avec ail, cumin et harissa.",
+        "Déposer du pain en morceaux dans un bol.",
+        "Verser les pois chiches et le bouillon par-dessus.",
+        "Finir avec un filet d’huile d’olive et servir."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "انقعي ثم اطهي الفاصوليا حتى تصبح طرية.",
+        "أحضري مرقا مع الثوم والكمون والحريسة.",
+        "ضعي قطع من الخبز في وعاء.",
+        "اسكبي الفاصوليا والمرق فوقها.",
+        "أنهي بقطرة من زيت الزيتون وقدمي."
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "soupe",
+      "hiver"
+    ],
+    "nutrition": {
+      "calories": 360,
+      "healthy": true,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 15,
+    "temps_cuisson": 60
+  },
+  {
+    "id": "ojja_merguez",
+    "name": {
+      "fr": "Ojja merguez",
+      "en": "Merguez Ojja",
+      "ar": "عجة مرقاز"
+    },
+    "aliases": [
+      "ojja",
+      "ojja merguez"
+    ],
+    "ingredients": [
+      {
+        "nom": "merguez",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "tomates",
+        "quantite": 4,
+        "unite": ""
+      },
+      {
+        "nom": "oeufs",
+        "quantite": 4,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Faire dorer les merguez coupées.",
+        "Ajouter l’ail puis les tomates concassées.",
+        "Laisser mijoter jusqu’à obtenir une sauce épaisse.",
+        "Casser les œufs sur la sauce.",
+        "Cuire à feu doux et servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "تحمير المرقاز المقطعة.",
+        "أضيفي الثوم ثم الطماطم المفروم.",
+        "اتركيها على نار هادئة حتى تحصل على صلصة سميكة.",
+        "كسر البيض فوق الصلصة.",
+        "اطهي على نار هادئة وقدمي ساخنا."
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "rapide"
+    ],
+    "nutrition": {
+      "calories": 520,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "mechouia",
+    "name": {
+      "fr": "Salade méchouia",
+      "en": "Grilled Salad",
+      "ar": "سلطة مشوية"
+    },
+    "aliases": [
+      "mechouia",
+      "slata mechouia",
+      "سلطة مشوية"
+    ],
+    "ingredients": [
+      {
+        "nom": "poivrons",
+        "quantite": 4,
+        "unite": ""
+      },
+      {
+        "nom": "tomates",
+        "quantite": 3,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      },
+      {
+        "nom": "thon",
+        "quantite": 1,
+        "unite": "boîte"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Griller les poivrons, les tomates et l’ail.",
+        "Éplucher les légumes une fois tièdes.",
+        "Hacher finement le tout.",
+        "Assaisonner avec huile d’olive et sel.",
+        "Ajouter le thon au moment de servir."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "شوي الفلفل والطماطم والثوم.",
+        "تقشير الخضروات مرة واحدة تصبح دافئة.",
+        "هرس كل شيء جيدا.",
+        "تتبيل مع زيت الزيتون والملح.",
+        "أضيفي التونة في وقت التقديم."
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "entrée",
+      "healthy"
+    ],
+    "nutrition": {
+      "calories": 190,
+      "healthy": true,
+      "light": true
+    },
+    "difficulty": "facile",
+    "temps_prep": 15,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "omek_houria",
+    "name": {
+      "fr": "Omek Houria",
+      "en": "Carrot Purée Salad",
+      "ar": "أمك حورية"
+    },
+    "aliases": [
+      "omek houria",
+      "omak houria"
+    ],
+    "ingredients": [
+      {
+        "nom": "carottes",
+        "quantite": 500,
+        "unite": "g"
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "harissa",
+        "quantite": 1,
+        "unite": "c.à.c"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      },
+      {
+        "nom": "citron",
+        "quantite": 1,
+        "unite": ""
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Cuire les carottes à l’eau jusqu’à tendreté.",
+        "Les écraser avec l’ail.",
+        "Ajouter harissa, huile d’olive et jus de citron.",
+        "Bien mélanger jusqu’à obtenir une purée lisse.",
+        "Servir froid ou tiède."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "سلق الجزر في الماء حتى يصبح طريا.",
+        "هرسه مع الثوم.",
+        "أضيفي الحريسة وزيت الزيتون وعصير الليمون.",
+        "اخلطي جيدا حتى تحصل على هريس ناعم.",
+        "قدمي باردا أو دافئا."
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "entrée",
+      "healthy"
+    ],
+    "nutrition": {
+      "calories": 170,
+      "healthy": true,
+      "light": true
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "fricasse",
+    "name": {
+      "fr": "Fricassé tunisien",
+      "en": "Tunisian Fricassé",
+      "ar": "فريكاسي"
+    },
+    "aliases": [
+      "fricassé",
+      "fricasse"
+    ],
+    "ingredients": [
+      {
+        "nom": "farine",
+        "quantite": 500,
+        "unite": "g"
+      },
+      {
+        "nom": "levure",
+        "quantite": 1,
+        "unite": "sachet"
+      },
+      {
+        "nom": "thon",
+        "quantite": 1,
+        "unite": "boîte"
+      },
+      {
+        "nom": "oeufs",
+        "quantite": 4,
+        "unite": ""
+      },
+      {
+        "nom": "harissa",
+        "quantite": 1,
+        "unite": "c.à.s"
+      },
+      {
+        "nom": "huile",
+        "quantite": 500,
+        "unite": "ml"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer une pâte souple avec farine, levure et eau.",
+        "Laisser lever la pâte.",
+        "Former des petits pains et les frire.",
+        "Ouvrir les pains et les garnir de harissa, thon et œufs.",
+        "Servir aussitôt."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "تحضير عجينة مرنة بالدقيق والخميرة والماء.",
+        "اترك العجينة ترتفع.",
+        "شكل خبز صغير وقلي.",
+        "افتح الخبز واملأه بالحريسة والتونة والبيض.",
+        "قدمي على الفور."
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "street_food"
+    ],
+    "nutrition": {
+      "calories": 560,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "moyen",
+    "temps_prep": 60,
+    "temps_cuisson": 15
+  },
+  {
+    "id": "tajine_tunisien",
+    "name": {
+      "fr": "Tajine tunisien",
+      "en": "Tunisian Tajine",
+      "ar": "طاجين تونسي"
+    },
+    "aliases": [
+      "tajine",
+      "طاجين"
+    ],
+    "ingredients": [
+      {
+        "nom": "oeufs",
+        "quantite": 6,
+        "unite": ""
+      },
+      {
+        "nom": "poulet",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "fromage râpé",
+        "quantite": 100,
+        "unite": "g"
+      },
+      {
+        "nom": "persil",
+        "quantite": 1,
+        "unite": "bouquet"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 1,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Cuire le poulet puis l’émietter.",
+        "Battre les œufs avec le fromage et le persil.",
+        "Mélanger avec le poulet.",
+        "Verser dans un moule huilé.",
+        "Cuire au four jusqu’à belle coloration."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "اطهي الدجاج ثم افرمه.",
+        "اخفق البيض مع الجبن والبقدونس.",
+        "اخلطي مع الدجاج.",
+        "اسكبي في قالب مدهون.",
+        "اطهي في الفرن حتى يصبح لون جميل."
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "four"
+    ],
+    "nutrition": {
+      "calories": 430,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "moyen",
+    "temps_prep": 15,
+    "temps_cuisson": 30
+  },
+  {
+    "id": "pates_thon",
+    "name": {
+      "fr": "Pâtes au thon",
+      "en": "Tuna Pasta",
+      "ar": "مقرونة بالتونة"
+    },
+    "aliases": [
+      "pates thon",
+      "makarouna bel ton",
+      "ma9rouna bel ton",
+      "مقرونة بالتونة"
+    ],
+    "ingredients": [
+      {
+        "nom": "pâtes",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "thon",
+        "quantite": 1,
+        "unite": "boîte"
+      },
+      {
+        "nom": "tomate concentrée",
+        "quantite": 1,
+        "unite": "c.à.s"
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Cuire les pâtes dans l’eau bouillante salée.",
+        "Faire revenir l’ail dans l’huile.",
+        "Ajouter la tomate concentrée puis un peu d’eau.",
+        "Ajouter le thon égoutté.",
+        "Mélanger la sauce avec les pâtes et servir."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "اسلق المكرونة في الماء المالح.",
+        "تحمير الثوم في الزيت.",
+        "أضيفي الطماطم المركزة ثم قليلا من الماء.",
+        "أضيفي التونة المصفاة.",
+        "اخلطي الصلصة مع المكرونة وقدمي."
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "rapide",
+      "pâtes"
+    ],
+    "nutrition": {
+      "calories": 390,
+      "healthy": true,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 15
+  },
+  {
+    "id": "mloukhiya",
+    "name": {
+      "fr": "Mloukhiya tunisienne",
+      "en": "Tunisian Mloukhiya",
+      "ar": "ملوخية تونسية"
+    },
+    "aliases": [
+      "mloukhiya",
+      "ملوخية"
+    ],
+    "ingredients": [
+      {
+        "nom": "poudre de mloukhiya",
+        "quantite": 200,
+        "unite": "g"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 200,
+        "unite": "ml"
+      },
+      {
+        "nom": "viande de boeuf",
+        "quantite": 500,
+        "unite": "g"
+      },
+      {
+        "nom": "ail",
+        "quantite": 5,
+        "unite": "gousses"
+      },
+      {
+        "nom": "coriandre moulue",
+        "quantite": 1,
+        "unite": "c.à.c"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Mélanger la poudre de mloukhiya avec l’huile à froid.",
+        "Ajouter de l’eau progressivement en remuant.",
+        "Cuire à feu très doux plusieurs heures.",
+        "Ajouter la viande et les épices.",
+        "Laisser mijoter jusqu’à cuisson complète."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "اخلط مسحوق الملوخية بالزيت البارد.",
+        "أضف الماء تدريجيا مع التحريك.",
+        "اطهي على نار هادئة جدا لعدة ساعات.",
+        "أضيفي اللحم والتوابل.",
+        "اتركيها على نار هادئة حتى ينضج تماما."
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat_traditionnel"
+    ],
+    "nutrition": {
+      "calories": 650,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "difficile",
+    "temps_prep": 20,
+    "temps_cuisson": 240
+  },
+  {
+    "id": "loubia",
+    "name": {
+      "fr": "Loubia",
+      "en": "White Bean Stew",
+      "ar": "لوبيا"
+    },
+    "aliases": [
+      "loubia",
+      "haricots blancs"
+    ],
+    "ingredients": [
+      {
+        "nom": "haricots blancs",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "tomate concentrée",
+        "quantite": 1,
+        "unite": "c.à.s"
+      },
+      {
+        "nom": "ail",
+        "quantite": 3,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      },
+      {
+        "nom": "sel",
+        "quantite": 1,
+        "unite": "c.à.c"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Faire tremper les haricots toute une nuit.",
+        "Faire revenir l’ail dans l’huile.",
+        "Ajouter la tomate concentrée puis les haricots.",
+        "Couvrir d’eau et cuire jusqu’à tendreté.",
+        "Rectifier l’assaisonnement et servir."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "hiver"
+    ],
+    "nutrition": {
+      "calories": 340,
+      "healthy": true,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 60
+  },
+  {
+    "id": "dchicha",
+    "name": {
+      "fr": "Dchicha",
+      "en": "Cracked Wheat Soup",
+      "ar": "دشيشة"
+    },
+    "aliases": [
+      "dchicha"
+    ],
+    "ingredients": [
+      {
+        "nom": "dchicha",
+        "quantite": 200,
+        "unite": "g"
+      },
+      {
+        "nom": "tomate concentrée",
+        "quantite": 1,
+        "unite": "c.à.s"
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Faire revenir l’ail dans l’huile.",
+        "Ajouter la tomate concentrée puis de l’eau.",
+        "Verser la dchicha en pluie.",
+        "Cuire en remuant régulièrement.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "soupe"
+    ],
+    "nutrition": {
+      "calories": 220,
+      "healthy": true,
+      "light": true
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 30
+  },
+  {
+    "id": "bambalouni",
+    "name": {
+      "fr": "Bambalouni",
+      "en": "Tunisian Donuts",
+      "ar": "بمبالوني"
+    },
+    "aliases": [
+      "bambalouni"
+    ],
+    "ingredients": [
+      {
+        "nom": "farine",
+        "quantite": 500,
+        "unite": "g"
+      },
+      {
+        "nom": "levure",
+        "quantite": 1,
+        "unite": "sachet"
+      },
+      {
+        "nom": "sucre",
+        "quantite": 50,
+        "unite": "g"
+      },
+      {
+        "nom": "eau",
+        "quantite": 300,
+        "unite": "ml"
+      },
+      {
+        "nom": "huile",
+        "quantite": 500,
+        "unite": "ml"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer une pâte souple et collante.",
+        "Laisser lever une heure.",
+        "Former des anneaux.",
+        "Frire dans l’huile chaude.",
+        "Saupoudrer de sucre et servir."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "dessert",
+      "street_food"
+    ],
+    "nutrition": {
+      "calories": 480,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "moyen",
+    "temps_prep": 60,
+    "temps_cuisson": 10
+  },
+  {
+    "id": "riz_tunisien_au_poulet_et_courgette",
+    "name": {
+      "fr": "Riz tunisien au poulet et courgette",
+      "en": "Tunisian Rice with Chicken and Zucchini",
+      "ar": "أرز تونسي بـدجاج وكوسة"
+    },
+    "aliases": [
+      "poulet",
+      "courgette"
+    ],
+    "ingredients": [
+      {
+        "nom": "riz",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "poulet",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "courgette",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Faire revenir l’oignon dans l’huile.",
+        "Ajouter le poulet et le faire cuire quelques minutes.",
+        "Ajouter courgette puis le riz.",
+        "Verser de l’eau chaude et laisser cuire doucement.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "riz"
+    ],
+    "nutrition": {
+      "calories": 430,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 25
+  },
+  {
+    "id": "riz_tunisien_au_poulet_et_pommes_de_terre",
+    "name": {
+      "fr": "Riz tunisien au poulet et pommes de terre",
+      "en": "Tunisian Rice with Chicken and Potato",
+      "ar": "أرز تونسي بـدجاج وبطاطا"
+    },
+    "aliases": [
+      "poulet",
+      "pommes de terre"
+    ],
+    "ingredients": [
+      {
+        "nom": "riz",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "poulet",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "pommes de terre",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Faire revenir l’oignon dans l’huile.",
+        "Ajouter le poulet et le faire cuire quelques minutes.",
+        "Ajouter pommes de terre puis le riz.",
+        "Verser de l’eau chaude et laisser cuire doucement.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "riz"
+    ],
+    "nutrition": {
+      "calories": 430,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 25
+  },
+  {
+    "id": "riz_tunisien_au_poulet_et_epinards",
+    "name": {
+      "fr": "Riz tunisien au poulet et épinards",
+      "en": "Tunisian Rice with Chicken and Spinach",
+      "ar": "أرز تونسي بـدجاج وسبانخ"
+    },
+    "aliases": [
+      "poulet",
+      "épinards"
+    ],
+    "ingredients": [
+      {
+        "nom": "riz",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "poulet",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "épinards",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Faire revenir l’oignon dans l’huile.",
+        "Ajouter le poulet et le faire cuire quelques minutes.",
+        "Ajouter épinards puis le riz.",
+        "Verser de l’eau chaude et laisser cuire doucement.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "riz"
+    ],
+    "nutrition": {
+      "calories": 430,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 25
+  },
+  {
+    "id": "riz_tunisien_au_poulet_et_petits_pois",
+    "name": {
+      "fr": "Riz tunisien au poulet et petits pois",
+      "en": "Tunisian Rice with Chicken and Peas",
+      "ar": "أرز تونسي بـدجاج وجلبانة"
+    },
+    "aliases": [
+      "poulet",
+      "petits pois"
+    ],
+    "ingredients": [
+      {
+        "nom": "riz",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "poulet",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "petits pois",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Faire revenir l’oignon dans l’huile.",
+        "Ajouter le poulet et le faire cuire quelques minutes.",
+        "Ajouter petits pois puis le riz.",
+        "Verser de l’eau chaude et laisser cuire doucement.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "riz"
+    ],
+    "nutrition": {
+      "calories": 430,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 25
+  },
+  {
+    "id": "riz_tunisien_au_thon_et_courgette",
+    "name": {
+      "fr": "Riz tunisien au thon et courgette",
+      "en": "Tunisian Rice with Tuna and Zucchini",
+      "ar": "أرز تونسي بـتونة وكوسة"
+    },
+    "aliases": [
+      "thon",
+      "courgette"
+    ],
+    "ingredients": [
+      {
+        "nom": "riz",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "thon",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "courgette",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Faire revenir l’oignon dans l’huile.",
+        "Ajouter le thon et le faire cuire quelques minutes.",
+        "Ajouter courgette puis le riz.",
+        "Verser de l’eau chaude et laisser cuire doucement.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "riz"
+    ],
+    "nutrition": {
+      "calories": 380,
+      "healthy": true,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 25
+  },
+  {
+    "id": "riz_tunisien_au_thon_et_pommes_de_terre",
+    "name": {
+      "fr": "Riz tunisien au thon et pommes de terre",
+      "en": "Tunisian Rice with Tuna and Potato",
+      "ar": "أرز تونسي بـتونة وبطاطا"
+    },
+    "aliases": [
+      "thon",
+      "pommes de terre"
+    ],
+    "ingredients": [
+      {
+        "nom": "riz",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "thon",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "pommes de terre",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Faire revenir l’oignon dans l’huile.",
+        "Ajouter le thon et le faire cuire quelques minutes.",
+        "Ajouter pommes de terre puis le riz.",
+        "Verser de l’eau chaude et laisser cuire doucement.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "riz"
+    ],
+    "nutrition": {
+      "calories": 380,
+      "healthy": true,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 25
+  },
+  {
+    "id": "riz_tunisien_au_thon_et_epinards",
+    "name": {
+      "fr": "Riz tunisien au thon et épinards",
+      "en": "Tunisian Rice with Tuna and Spinach",
+      "ar": "أرز تونسي بـتونة وسبانخ"
+    },
+    "aliases": [
+      "thon",
+      "épinards"
+    ],
+    "ingredients": [
+      {
+        "nom": "riz",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "thon",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "épinards",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Faire revenir l’oignon dans l’huile.",
+        "Ajouter le thon et le faire cuire quelques minutes.",
+        "Ajouter épinards puis le riz.",
+        "Verser de l’eau chaude et laisser cuire doucement.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "riz"
+    ],
+    "nutrition": {
+      "calories": 380,
+      "healthy": true,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 25
+  },
+  {
+    "id": "riz_tunisien_au_thon_et_petits_pois",
+    "name": {
+      "fr": "Riz tunisien au thon et petits pois",
+      "en": "Tunisian Rice with Tuna and Peas",
+      "ar": "أرز تونسي بـتونة وجلبانة"
+    },
+    "aliases": [
+      "thon",
+      "petits pois"
+    ],
+    "ingredients": [
+      {
+        "nom": "riz",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "thon",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "petits pois",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Faire revenir l’oignon dans l’huile.",
+        "Ajouter le thon et le faire cuire quelques minutes.",
+        "Ajouter petits pois puis le riz.",
+        "Verser de l’eau chaude et laisser cuire doucement.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "riz"
+    ],
+    "nutrition": {
+      "calories": 380,
+      "healthy": true,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 25
+  },
+  {
+    "id": "riz_tunisien_au_viande_et_courgette",
+    "name": {
+      "fr": "Riz tunisien au viande et courgette",
+      "en": "Tunisian Rice with Meat and Zucchini",
+      "ar": "أرز تونسي بـلحم وكوسة"
+    },
+    "aliases": [
+      "viande",
+      "courgette"
+    ],
+    "ingredients": [
+      {
+        "nom": "riz",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "viande",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "courgette",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Faire revenir l’oignon dans l’huile.",
+        "Ajouter le viande et le faire cuire quelques minutes.",
+        "Ajouter courgette puis le riz.",
+        "Verser de l’eau chaude et laisser cuire doucement.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "riz"
+    ],
+    "nutrition": {
+      "calories": 430,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 25
+  },
+  {
+    "id": "riz_tunisien_au_viande_et_pommes_de_terre",
+    "name": {
+      "fr": "Riz tunisien au viande et pommes de terre",
+      "en": "Tunisian Rice with Meat and Potato",
+      "ar": "أرز تونسي بـلحم وبطاطا"
+    },
+    "aliases": [
+      "viande",
+      "pommes de terre"
+    ],
+    "ingredients": [
+      {
+        "nom": "riz",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "viande",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "pommes de terre",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Faire revenir l’oignon dans l’huile.",
+        "Ajouter le viande et le faire cuire quelques minutes.",
+        "Ajouter pommes de terre puis le riz.",
+        "Verser de l’eau chaude et laisser cuire doucement.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "riz"
+    ],
+    "nutrition": {
+      "calories": 430,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 25
+  },
+  {
+    "id": "riz_tunisien_au_viande_et_epinards",
+    "name": {
+      "fr": "Riz tunisien au viande et épinards",
+      "en": "Tunisian Rice with Meat and Spinach",
+      "ar": "أرز تونسي بـلحم وسبانخ"
+    },
+    "aliases": [
+      "viande",
+      "épinards"
+    ],
+    "ingredients": [
+      {
+        "nom": "riz",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "viande",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "épinards",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Faire revenir l’oignon dans l’huile.",
+        "Ajouter le viande et le faire cuire quelques minutes.",
+        "Ajouter épinards puis le riz.",
+        "Verser de l’eau chaude et laisser cuire doucement.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "riz"
+    ],
+    "nutrition": {
+      "calories": 430,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 25
+  },
+  {
+    "id": "riz_tunisien_au_viande_et_petits_pois",
+    "name": {
+      "fr": "Riz tunisien au viande et petits pois",
+      "en": "Tunisian Rice with Meat and Peas",
+      "ar": "أرز تونسي بـلحم وجلبانة"
+    },
+    "aliases": [
+      "viande",
+      "petits pois"
+    ],
+    "ingredients": [
+      {
+        "nom": "riz",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "viande",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "petits pois",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Faire revenir l’oignon dans l’huile.",
+        "Ajouter le viande et le faire cuire quelques minutes.",
+        "Ajouter petits pois puis le riz.",
+        "Verser de l’eau chaude et laisser cuire doucement.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "riz"
+    ],
+    "nutrition": {
+      "calories": 430,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 25
+  },
+  {
+    "id": "riz_tunisien_au_merguez_et_courgette",
+    "name": {
+      "fr": "Riz tunisien au merguez et courgette",
+      "en": "Tunisian Rice with Merguez and Zucchini",
+      "ar": "أرز تونسي بـمرقاز وكوسة"
+    },
+    "aliases": [
+      "merguez",
+      "courgette"
+    ],
+    "ingredients": [
+      {
+        "nom": "riz",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "merguez",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "courgette",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Faire revenir l’oignon dans l’huile.",
+        "Ajouter le merguez et le faire cuire quelques minutes.",
+        "Ajouter courgette puis le riz.",
+        "Verser de l’eau chaude et laisser cuire doucement.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "riz"
+    ],
+    "nutrition": {
+      "calories": 430,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 25
+  },
+  {
+    "id": "riz_tunisien_au_merguez_et_pommes_de_terre",
+    "name": {
+      "fr": "Riz tunisien au merguez et pommes de terre",
+      "en": "Tunisian Rice with Merguez and Potato",
+      "ar": "أرز تونسي بـمرقاز وبطاطا"
+    },
+    "aliases": [
+      "merguez",
+      "pommes de terre"
+    ],
+    "ingredients": [
+      {
+        "nom": "riz",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "merguez",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "pommes de terre",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Faire revenir l’oignon dans l’huile.",
+        "Ajouter le merguez et le faire cuire quelques minutes.",
+        "Ajouter pommes de terre puis le riz.",
+        "Verser de l’eau chaude et laisser cuire doucement.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "riz"
+    ],
+    "nutrition": {
+      "calories": 430,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 25
+  },
+  {
+    "id": "riz_tunisien_au_merguez_et_epinards",
+    "name": {
+      "fr": "Riz tunisien au merguez et épinards",
+      "en": "Tunisian Rice with Merguez and Spinach",
+      "ar": "أرز تونسي بـمرقاز وسبانخ"
+    },
+    "aliases": [
+      "merguez",
+      "épinards"
+    ],
+    "ingredients": [
+      {
+        "nom": "riz",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "merguez",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "épinards",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Faire revenir l’oignon dans l’huile.",
+        "Ajouter le merguez et le faire cuire quelques minutes.",
+        "Ajouter épinards puis le riz.",
+        "Verser de l’eau chaude et laisser cuire doucement.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "riz"
+    ],
+    "nutrition": {
+      "calories": 430,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 25
+  },
+  {
+    "id": "riz_tunisien_au_merguez_et_petits_pois",
+    "name": {
+      "fr": "Riz tunisien au merguez et petits pois",
+      "en": "Tunisian Rice with Merguez and Peas",
+      "ar": "أرز تونسي بـمرقاز وجلبانة"
+    },
+    "aliases": [
+      "merguez",
+      "petits pois"
+    ],
+    "ingredients": [
+      {
+        "nom": "riz",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "merguez",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "petits pois",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Faire revenir l’oignon dans l’huile.",
+        "Ajouter le merguez et le faire cuire quelques minutes.",
+        "Ajouter petits pois puis le riz.",
+        "Verser de l’eau chaude et laisser cuire doucement.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "riz"
+    ],
+    "nutrition": {
+      "calories": 430,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 25
+  },
+  {
+    "id": "omelette_tunisienne_au_poulet",
+    "name": {
+      "fr": "Omelette tunisienne au poulet",
+      "en": "Tunisian Omelette with Chicken",
+      "ar": "عجة تونسية بـدجاج"
+    },
+    "aliases": [
+      "omelette",
+      "poulet"
+    ],
+    "ingredients": [
+      {
+        "nom": "oeufs",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "persil",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "poulet",
+        "quantite": 200,
+        "unite": "g"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer les ingrédients et les couper si nécessaire.",
+        "Faire revenir le poulet avec un peu d’huile.",
+        "Ajouter les autres ingrédients de base pour la omelette.",
+        "Assaisonner puis laisser cuire jusqu’à bonne texture.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "rapide",
+      "omelette"
+    ],
+    "nutrition": {
+      "calories": 450,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "omelette_tunisienne_au_thon",
+    "name": {
+      "fr": "Omelette tunisienne au thon",
+      "en": "Tunisian Omelette with Tuna",
+      "ar": "عجة تونسية بـتونة"
+    },
+    "aliases": [
+      "omelette",
+      "thon"
+    ],
+    "ingredients": [
+      {
+        "nom": "oeufs",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "persil",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "thon",
+        "quantite": 200,
+        "unite": "g"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer les ingrédients et les couper si nécessaire.",
+        "Faire revenir le thon avec un peu d’huile.",
+        "Ajouter les autres ingrédients de base pour la omelette.",
+        "Assaisonner puis laisser cuire jusqu’à bonne texture.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "rapide",
+      "omelette"
+    ],
+    "nutrition": {
+      "calories": 450,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "omelette_tunisienne_au_viande",
+    "name": {
+      "fr": "Omelette tunisienne au viande",
+      "en": "Tunisian Omelette with Meat",
+      "ar": "عجة تونسية بـلحم"
+    },
+    "aliases": [
+      "omelette",
+      "viande"
+    ],
+    "ingredients": [
+      {
+        "nom": "oeufs",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "persil",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "viande",
+        "quantite": 200,
+        "unite": "g"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer les ingrédients et les couper si nécessaire.",
+        "Faire revenir le viande avec un peu d’huile.",
+        "Ajouter les autres ingrédients de base pour la omelette.",
+        "Assaisonner puis laisser cuire jusqu’à bonne texture.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "rapide",
+      "omelette"
+    ],
+    "nutrition": {
+      "calories": 450,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "omelette_tunisienne_au_merguez",
+    "name": {
+      "fr": "Omelette tunisienne au merguez",
+      "en": "Tunisian Omelette with Merguez",
+      "ar": "عجة تونسية بـمرقاز"
+    },
+    "aliases": [
+      "omelette",
+      "merguez"
+    ],
+    "ingredients": [
+      {
+        "nom": "oeufs",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "persil",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "merguez",
+        "quantite": 200,
+        "unite": "g"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer les ingrédients et les couper si nécessaire.",
+        "Faire revenir le merguez avec un peu d’huile.",
+        "Ajouter les autres ingrédients de base pour la omelette.",
+        "Assaisonner puis laisser cuire jusqu’à bonne texture.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "rapide",
+      "omelette"
+    ],
+    "nutrition": {
+      "calories": 450,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "salade_tunisienne_au_poulet",
+    "name": {
+      "fr": "Salade tunisienne au poulet",
+      "en": "Tunisian Salad with Chicken",
+      "ar": "سلطة تونسية بـدجاج"
+    },
+    "aliases": [
+      "salade",
+      "poulet"
+    ],
+    "ingredients": [
+      {
+        "nom": "tomates",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "concombre",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "poulet",
+        "quantite": 200,
+        "unite": "g"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer les ingrédients et les couper si nécessaire.",
+        "Faire revenir le poulet avec un peu d’huile.",
+        "Ajouter les autres ingrédients de base pour la salade.",
+        "Assaisonner puis laisser cuire jusqu’à bonne texture.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "rapide",
+      "salade"
+    ],
+    "nutrition": {
+      "calories": 300,
+      "healthy": true,
+      "light": true
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "salade_tunisienne_au_thon",
+    "name": {
+      "fr": "Salade tunisienne au thon",
+      "en": "Tunisian Salad with Tuna",
+      "ar": "سلطة تونسية بـتونة"
+    },
+    "aliases": [
+      "salade",
+      "thon"
+    ],
+    "ingredients": [
+      {
+        "nom": "tomates",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "concombre",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "thon",
+        "quantite": 200,
+        "unite": "g"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer les ingrédients et les couper si nécessaire.",
+        "Faire revenir le thon avec un peu d’huile.",
+        "Ajouter les autres ingrédients de base pour la salade.",
+        "Assaisonner puis laisser cuire jusqu’à bonne texture.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "rapide",
+      "salade"
+    ],
+    "nutrition": {
+      "calories": 300,
+      "healthy": true,
+      "light": true
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "salade_tunisienne_au_viande",
+    "name": {
+      "fr": "Salade tunisienne au viande",
+      "en": "Tunisian Salad with Meat",
+      "ar": "سلطة تونسية بـلحم"
+    },
+    "aliases": [
+      "salade",
+      "viande"
+    ],
+    "ingredients": [
+      {
+        "nom": "tomates",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "concombre",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "viande",
+        "quantite": 200,
+        "unite": "g"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer les ingrédients et les couper si nécessaire.",
+        "Faire revenir le viande avec un peu d’huile.",
+        "Ajouter les autres ingrédients de base pour la salade.",
+        "Assaisonner puis laisser cuire jusqu’à bonne texture.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "rapide",
+      "salade"
+    ],
+    "nutrition": {
+      "calories": 300,
+      "healthy": true,
+      "light": true
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "salade_tunisienne_au_merguez",
+    "name": {
+      "fr": "Salade tunisienne au merguez",
+      "en": "Tunisian Salad with Merguez",
+      "ar": "سلطة تونسية بـمرقاز"
+    },
+    "aliases": [
+      "salade",
+      "merguez"
+    ],
+    "ingredients": [
+      {
+        "nom": "tomates",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "concombre",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "merguez",
+        "quantite": 200,
+        "unite": "g"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer les ingrédients et les couper si nécessaire.",
+        "Faire revenir le merguez avec un peu d’huile.",
+        "Ajouter les autres ingrédients de base pour la salade.",
+        "Assaisonner puis laisser cuire jusqu’à bonne texture.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "rapide",
+      "salade"
+    ],
+    "nutrition": {
+      "calories": 300,
+      "healthy": true,
+      "light": true
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "soupe_tunisienne_au_poulet",
+    "name": {
+      "fr": "Soupe tunisienne au poulet",
+      "en": "Tunisian Soup with Chicken",
+      "ar": "شربة تونسية بـدجاج"
+    },
+    "aliases": [
+      "soupe",
+      "poulet"
+    ],
+    "ingredients": [
+      {
+        "nom": "tomate concentrée",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "poulet",
+        "quantite": 200,
+        "unite": "g"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer les ingrédients et les couper si nécessaire.",
+        "Faire revenir le poulet avec un peu d’huile.",
+        "Ajouter les autres ingrédients de base pour la soupe.",
+        "Assaisonner puis laisser cuire jusqu’à bonne texture.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "rapide",
+      "soupe"
+    ],
+    "nutrition": {
+      "calories": 300,
+      "healthy": true,
+      "light": true
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "soupe_tunisienne_au_thon",
+    "name": {
+      "fr": "Soupe tunisienne au thon",
+      "en": "Tunisian Soup with Tuna",
+      "ar": "شربة تونسية بـتونة"
+    },
+    "aliases": [
+      "soupe",
+      "thon"
+    ],
+    "ingredients": [
+      {
+        "nom": "tomate concentrée",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "thon",
+        "quantite": 200,
+        "unite": "g"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer les ingrédients et les couper si nécessaire.",
+        "Faire revenir le thon avec un peu d’huile.",
+        "Ajouter les autres ingrédients de base pour la soupe.",
+        "Assaisonner puis laisser cuire jusqu’à bonne texture.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "rapide",
+      "soupe"
+    ],
+    "nutrition": {
+      "calories": 300,
+      "healthy": true,
+      "light": true
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "soupe_tunisienne_au_viande",
+    "name": {
+      "fr": "Soupe tunisienne au viande",
+      "en": "Tunisian Soup with Meat",
+      "ar": "شربة تونسية بـلحم"
+    },
+    "aliases": [
+      "soupe",
+      "viande"
+    ],
+    "ingredients": [
+      {
+        "nom": "tomate concentrée",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "viande",
+        "quantite": 200,
+        "unite": "g"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer les ingrédients et les couper si nécessaire.",
+        "Faire revenir le viande avec un peu d’huile.",
+        "Ajouter les autres ingrédients de base pour la soupe.",
+        "Assaisonner puis laisser cuire jusqu’à bonne texture.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "rapide",
+      "soupe"
+    ],
+    "nutrition": {
+      "calories": 300,
+      "healthy": true,
+      "light": true
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "soupe_tunisienne_au_merguez",
+    "name": {
+      "fr": "Soupe tunisienne au merguez",
+      "en": "Tunisian Soup with Merguez",
+      "ar": "شربة تونسية بـمرقاز"
+    },
+    "aliases": [
+      "soupe",
+      "merguez"
+    ],
+    "ingredients": [
+      {
+        "nom": "tomate concentrée",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "merguez",
+        "quantite": 200,
+        "unite": "g"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer les ingrédients et les couper si nécessaire.",
+        "Faire revenir le merguez avec un peu d’huile.",
+        "Ajouter les autres ingrédients de base pour la soupe.",
+        "Assaisonner puis laisser cuire jusqu’à bonne texture.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "rapide",
+      "soupe"
+    ],
+    "nutrition": {
+      "calories": 300,
+      "healthy": true,
+      "light": true
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "riz_tunisienne_au_poulet",
+    "name": {
+      "fr": "Riz tunisienne au poulet",
+      "en": "Tunisian Rice with Chicken",
+      "ar": "أرز تونسية بـدجاج"
+    },
+    "aliases": [
+      "riz",
+      "poulet"
+    ],
+    "ingredients": [
+      {
+        "nom": "riz",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "poulet",
+        "quantite": 200,
+        "unite": "g"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer les ingrédients et les couper si nécessaire.",
+        "Faire revenir le poulet avec un peu d’huile.",
+        "Ajouter les autres ingrédients de base pour la riz.",
+        "Assaisonner puis laisser cuire jusqu’à bonne texture.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "rapide",
+      "riz"
+    ],
+    "nutrition": {
+      "calories": 450,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "riz_tunisienne_au_thon",
+    "name": {
+      "fr": "Riz tunisienne au thon",
+      "en": "Tunisian Rice with Tuna",
+      "ar": "أرز تونسية بـتونة"
+    },
+    "aliases": [
+      "riz",
+      "thon"
+    ],
+    "ingredients": [
+      {
+        "nom": "riz",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "thon",
+        "quantite": 200,
+        "unite": "g"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer les ingrédients et les couper si nécessaire.",
+        "Faire revenir le thon avec un peu d’huile.",
+        "Ajouter les autres ingrédients de base pour la riz.",
+        "Assaisonner puis laisser cuire jusqu’à bonne texture.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "rapide",
+      "riz"
+    ],
+    "nutrition": {
+      "calories": 450,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "riz_tunisienne_au_viande",
+    "name": {
+      "fr": "Riz tunisienne au viande",
+      "en": "Tunisian Rice with Meat",
+      "ar": "أرز تونسية بـلحم"
+    },
+    "aliases": [
+      "riz",
+      "viande"
+    ],
+    "ingredients": [
+      {
+        "nom": "riz",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "viande",
+        "quantite": 200,
+        "unite": "g"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer les ingrédients et les couper si nécessaire.",
+        "Faire revenir le viande avec un peu d’huile.",
+        "Ajouter les autres ingrédients de base pour la riz.",
+        "Assaisonner puis laisser cuire jusqu’à bonne texture.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "rapide",
+      "riz"
+    ],
+    "nutrition": {
+      "calories": 450,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "riz_tunisienne_au_merguez",
+    "name": {
+      "fr": "Riz tunisienne au merguez",
+      "en": "Tunisian Rice with Merguez",
+      "ar": "أرز تونسية بـمرقاز"
+    },
+    "aliases": [
+      "riz",
+      "merguez"
+    ],
+    "ingredients": [
+      {
+        "nom": "riz",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "merguez",
+        "quantite": 200,
+        "unite": "g"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer les ingrédients et les couper si nécessaire.",
+        "Faire revenir le merguez avec un peu d’huile.",
+        "Ajouter les autres ingrédients de base pour la riz.",
+        "Assaisonner puis laisser cuire jusqu’à bonne texture.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "rapide",
+      "riz"
+    ],
+    "nutrition": {
+      "calories": 450,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "makarouna_tunisienne_au_poulet",
+    "name": {
+      "fr": "Makarouna tunisienne au poulet",
+      "en": "Tunisian Pasta with Chicken",
+      "ar": "مقرونة تونسية بـدجاج"
+    },
+    "aliases": [
+      "makarouna",
+      "poulet"
+    ],
+    "ingredients": [
+      {
+        "nom": "pâtes",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "tomate concentrée",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "poulet",
+        "quantite": 200,
+        "unite": "g"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer les ingrédients et les couper si nécessaire.",
+        "Faire revenir le poulet avec un peu d’huile.",
+        "Ajouter les autres ingrédients de base pour la makarouna.",
+        "Assaisonner puis laisser cuire jusqu’à bonne texture.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "rapide",
+      "makarouna"
+    ],
+    "nutrition": {
+      "calories": 450,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "makarouna_tunisienne_au_thon",
+    "name": {
+      "fr": "Makarouna tunisienne au thon",
+      "en": "Tunisian Pasta with Tuna",
+      "ar": "مقرونة تونسية بـتونة"
+    },
+    "aliases": [
+      "makarouna",
+      "thon"
+    ],
+    "ingredients": [
+      {
+        "nom": "pâtes",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "tomate concentrée",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "thon",
+        "quantite": 200,
+        "unite": "g"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer les ingrédients et les couper si nécessaire.",
+        "Faire revenir le thon avec un peu d’huile.",
+        "Ajouter les autres ingrédients de base pour la makarouna.",
+        "Assaisonner puis laisser cuire jusqu’à bonne texture.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "rapide",
+      "makarouna"
+    ],
+    "nutrition": {
+      "calories": 450,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "makarouna_tunisienne_au_viande",
+    "name": {
+      "fr": "Makarouna tunisienne au viande",
+      "en": "Tunisian Pasta with Meat",
+      "ar": "مقرونة تونسية بـلحم"
+    },
+    "aliases": [
+      "makarouna",
+      "viande"
+    ],
+    "ingredients": [
+      {
+        "nom": "pâtes",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "tomate concentrée",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "viande",
+        "quantite": 200,
+        "unite": "g"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer les ingrédients et les couper si nécessaire.",
+        "Faire revenir le viande avec un peu d’huile.",
+        "Ajouter les autres ingrédients de base pour la makarouna.",
+        "Assaisonner puis laisser cuire jusqu’à bonne texture.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "rapide",
+      "makarouna"
+    ],
+    "nutrition": {
+      "calories": 450,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "makarouna_tunisienne_au_merguez",
+    "name": {
+      "fr": "Makarouna tunisienne au merguez",
+      "en": "Tunisian Pasta with Merguez",
+      "ar": "مقرونة تونسية بـمرقاز"
+    },
+    "aliases": [
+      "makarouna",
+      "merguez"
+    ],
+    "ingredients": [
+      {
+        "nom": "pâtes",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "tomate concentrée",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "merguez",
+        "quantite": 200,
+        "unite": "g"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer les ingrédients et les couper si nécessaire.",
+        "Faire revenir le merguez avec un peu d’huile.",
+        "Ajouter les autres ingrédients de base pour la makarouna.",
+        "Assaisonner puis laisser cuire jusqu’à bonne texture.",
+        "Servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "rapide",
+      "makarouna"
+    ],
+    "nutrition": {
+      "calories": 450,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "makroudh",
+    "name": {
+      "fr": "Makroudh",
+      "en": "Makroudh",
+      "ar": "مقروض"
+    },
+    "aliases": [
+      "makroudh"
+    ],
+    "ingredients": [
+      {
+        "nom": "farine",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "sucre",
+        "quantite": 150,
+        "unite": "g"
+      },
+      {
+        "nom": "beurre",
+        "quantite": 100,
+        "unite": "g"
+      },
+      {
+        "nom": "eau",
+        "quantite": 200,
+        "unite": "ml"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer les ingrédients secs et liquides.",
+        "Former la pâte ou la préparation de base.",
+        "Cuire selon la méthode traditionnelle de la recette.",
+        "Ajouter le sirop ou la finition sucrée.",
+        "Laisser refroidir puis servir."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "dessert"
+    ],
+    "nutrition": {
+      "calories": 520,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "moyen",
+    "temps_prep": 25,
+    "temps_cuisson": 30
+  },
+  {
+    "id": "asida_zgougou",
+    "name": {
+      "fr": "Asida zgougou",
+      "en": "Asida Zgougou",
+      "ar": "عصيدة الزقوقو"
+    },
+    "aliases": [
+      "asida zgougou"
+    ],
+    "ingredients": [
+      {
+        "nom": "farine",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "sucre",
+        "quantite": 150,
+        "unite": "g"
+      },
+      {
+        "nom": "beurre",
+        "quantite": 100,
+        "unite": "g"
+      },
+      {
+        "nom": "eau",
+        "quantite": 200,
+        "unite": "ml"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer les ingrédients secs et liquides.",
+        "Former la pâte ou la préparation de base.",
+        "Cuire selon la méthode traditionnelle de la recette.",
+        "Ajouter le sirop ou la finition sucrée.",
+        "Laisser refroidir puis servir."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "dessert"
+    ],
+    "nutrition": {
+      "calories": 520,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "moyen",
+    "temps_prep": 25,
+    "temps_cuisson": 30
+  },
+  {
+    "id": "baklawa_tunisienne",
+    "name": {
+      "fr": "Baklawa tunisienne",
+      "en": "Tunisian Baklava",
+      "ar": "بقلاوة تونسية"
+    },
+    "aliases": [
+      "baklawa tunisienne"
+    ],
+    "ingredients": [
+      {
+        "nom": "farine",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "sucre",
+        "quantite": 150,
+        "unite": "g"
+      },
+      {
+        "nom": "beurre",
+        "quantite": 100,
+        "unite": "g"
+      },
+      {
+        "nom": "eau",
+        "quantite": 200,
+        "unite": "ml"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer les ingrédients secs et liquides.",
+        "Former la pâte ou la préparation de base.",
+        "Cuire selon la méthode traditionnelle de la recette.",
+        "Ajouter le sirop ou la finition sucrée.",
+        "Laisser refroidir puis servir."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "dessert"
+    ],
+    "nutrition": {
+      "calories": 520,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "moyen",
+    "temps_prep": 25,
+    "temps_cuisson": 30
+  },
+  {
+    "id": "zlabia",
+    "name": {
+      "fr": "Zlabia",
+      "en": "Zlabia",
+      "ar": "زلابية"
+    },
+    "aliases": [
+      "zlabia"
+    ],
+    "ingredients": [
+      {
+        "nom": "farine",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "sucre",
+        "quantite": 150,
+        "unite": "g"
+      },
+      {
+        "nom": "beurre",
+        "quantite": 100,
+        "unite": "g"
+      },
+      {
+        "nom": "eau",
+        "quantite": 200,
+        "unite": "ml"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer les ingrédients secs et liquides.",
+        "Former la pâte ou la préparation de base.",
+        "Cuire selon la méthode traditionnelle de la recette.",
+        "Ajouter le sirop ou la finition sucrée.",
+        "Laisser refroidir puis servir."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "dessert"
+    ],
+    "nutrition": {
+      "calories": 520,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "moyen",
+    "temps_prep": 25,
+    "temps_cuisson": 30
+  },
+  {
+    "id": "kaak_warka",
+    "name": {
+      "fr": "Kaak warka",
+      "en": "Kaak Warka",
+      "ar": "كعك الورقة"
+    },
+    "aliases": [
+      "kaak warka"
+    ],
+    "ingredients": [
+      {
+        "nom": "farine",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "sucre",
+        "quantite": 150,
+        "unite": "g"
+      },
+      {
+        "nom": "beurre",
+        "quantite": 100,
+        "unite": "g"
+      },
+      {
+        "nom": "eau",
+        "quantite": 200,
+        "unite": "ml"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer les ingrédients secs et liquides.",
+        "Former la pâte ou la préparation de base.",
+        "Cuire selon la méthode traditionnelle de la recette.",
+        "Ajouter le sirop ou la finition sucrée.",
+        "Laisser refroidir puis servir."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "dessert"
+    ],
+    "nutrition": {
+      "calories": 520,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "moyen",
+    "temps_prep": 25,
+    "temps_cuisson": 30
+  },
+  {
+    "id": "rfissa_sucree",
+    "name": {
+      "fr": "Rfissa sucrée",
+      "en": "Sweet Rfissa",
+      "ar": "رفيسة حلوة"
+    },
+    "aliases": [
+      "rfissa sucrée"
+    ],
+    "ingredients": [
+      {
+        "nom": "farine",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "sucre",
+        "quantite": 150,
+        "unite": "g"
+      },
+      {
+        "nom": "beurre",
+        "quantite": 100,
+        "unite": "g"
+      },
+      {
+        "nom": "eau",
+        "quantite": 200,
+        "unite": "ml"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer les ingrédients secs et liquides.",
+        "Former la pâte ou la préparation de base.",
+        "Cuire selon la méthode traditionnelle de la recette.",
+        "Ajouter le sirop ou la finition sucrée.",
+        "Laisser refroidir puis servir."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "dessert"
+    ],
+    "nutrition": {
+      "calories": 520,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "moyen",
+    "temps_prep": 25,
+    "temps_cuisson": 30
+  },
+  {
+    "id": "harira_tunisienne",
+    "name": {
+      "fr": "Harira tunisienne",
+      "en": "Tunisian Harira",
+      "ar": "حريرة تونسية"
+    },
+    "aliases": [
+      "harira tunisienne"
+    ],
+    "ingredients": [
+      {
+        "nom": "pois chiches",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "tomate concentrée",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "céleri",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 2,
+        "unite": ""
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer et couper les ingrédients.",
+        "Faire revenir les bases aromatiques.",
+        "Ajouter le reste des ingrédients principaux.",
+        "Cuire jusqu’à obtention de la texture souhaitée.",
+        "Servir chaud ou tiède selon la recette."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "soupe"
+    ],
+    "nutrition": {
+      "calories": 260,
+      "healthy": true
+    },
+    "difficulty": "facile",
+    "temps_prep": 15,
+    "temps_cuisson": 25
+  },
+  {
+    "id": "chorba_frik",
+    "name": {
+      "fr": "Chorba frik",
+      "en": "Frik Soup",
+      "ar": "شربة فريك"
+    },
+    "aliases": [
+      "chorba frik"
+    ],
+    "ingredients": [
+      {
+        "nom": "frik",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "tomate concentrée",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "poulet",
+        "quantite": 2,
+        "unite": ""
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer et couper les ingrédients.",
+        "Faire revenir les bases aromatiques.",
+        "Ajouter le reste des ingrédients principaux.",
+        "Cuire jusqu’à obtention de la texture souhaitée.",
+        "Servir chaud ou tiède selon la recette."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "soupe"
+    ],
+    "nutrition": {
+      "calories": 310,
+      "healthy": true,
+      "light": true
+    },
+    "difficulty": "facile",
+    "temps_prep": 15,
+    "temps_cuisson": 25
+  },
+  {
+    "id": "salade_tunisienne",
+    "name": {
+      "fr": "Salade tunisienne",
+      "en": "Tunisian Salad",
+      "ar": "سلطة تونسية"
+    },
+    "aliases": [
+      "salade tunisienne"
+    ],
+    "ingredients": [
+      {
+        "nom": "tomates",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "concombre",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 1,
+        "unite": ""
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer et couper les ingrédients.",
+        "Faire revenir les bases aromatiques.",
+        "Ajouter le reste des ingrédients principaux.",
+        "Cuire jusqu’à obtention de la texture souhaitée.",
+        "Servir chaud ou tiède selon la recette."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "salade",
+      "healthy"
+    ],
+    "nutrition": {
+      "calories": 160,
+      "healthy": true,
+      "light": true
+    },
+    "difficulty": "facile",
+    "temps_prep": 15,
+    "temps_cuisson": 25
+  },
+  {
+    "id": "slata_blankit",
+    "name": {
+      "fr": "Slata blankit",
+      "en": "Cooked Vegetable Salad",
+      "ar": "سلطة بلانكيت"
+    },
+    "aliases": [
+      "slata blankit"
+    ],
+    "ingredients": [
+      {
+        "nom": "pommes de terre",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "carottes",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "petits pois",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 1,
+        "unite": ""
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer et couper les ingrédients.",
+        "Faire revenir les bases aromatiques.",
+        "Ajouter le reste des ingrédients principaux.",
+        "Cuire jusqu’à obtention de la texture souhaitée.",
+        "Servir chaud ou tiède selon la recette."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "salade"
+    ],
+    "nutrition": {
+      "calories": 220,
+      "healthy": true,
+      "light": true
+    },
+    "difficulty": "facile",
+    "temps_prep": 15,
+    "temps_cuisson": 25
+  },
+  {
+    "id": "kafteji",
+    "name": {
+      "fr": "Kafteji",
+      "en": "Kafteji",
+      "ar": "كفتاجي"
+    },
+    "aliases": [
+      "kafteji"
+    ],
+    "ingredients": [
+      {
+        "nom": "pommes de terre",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "poivrons",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "tomates",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oeufs",
+        "quantite": 2,
+        "unite": ""
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer et couper les ingrédients.",
+        "Faire revenir les bases aromatiques.",
+        "Ajouter le reste des ingrédients principaux.",
+        "Cuire jusqu’à obtention de la texture souhaitée.",
+        "Servir chaud ou tiède selon la recette."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "street_food"
+    ],
+    "nutrition": {
+      "calories": 420,
+      "healthy": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 15,
+    "temps_cuisson": 25
+  },
+  {
+    "id": "mhadjeb_tunisien",
+    "name": {
+      "fr": "Mhadjeb tunisien",
+      "en": "Stuffed Flatbread",
+      "ar": "محاجب"
+    },
+    "aliases": [
+      "mhadjeb tunisien"
+    ],
+    "ingredients": [
+      {
+        "nom": "farine",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "tomates",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "huile",
+        "quantite": 1,
+        "unite": ""
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer et couper les ingrédients.",
+        "Faire revenir les bases aromatiques.",
+        "Ajouter le reste des ingrédients principaux.",
+        "Cuire jusqu’à obtention de la texture souhaitée.",
+        "Servir chaud ou tiède selon la recette."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "street_food"
+    ],
+    "nutrition": {
+      "calories": 390,
+      "healthy": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 15,
+    "temps_cuisson": 25
+  },
+  {
+    "id": "batbout_farci_tunisien",
+    "name": {
+      "fr": "Batbout farci tunisien",
+      "en": "Stuffed Bread",
+      "ar": "خبز محشي"
+    },
+    "aliases": [
+      "batbout farci tunisien"
+    ],
+    "ingredients": [
+      {
+        "nom": "farine",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "thon",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "harissa",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "oeufs",
+        "quantite": 2,
+        "unite": ""
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer et couper les ingrédients.",
+        "Faire revenir les bases aromatiques.",
+        "Ajouter le reste des ingrédients principaux.",
+        "Cuire jusqu’à obtention de la texture souhaitée.",
+        "Servir chaud ou tiède selon la recette."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "pain"
+    ],
+    "nutrition": {
+      "calories": 470,
+      "healthy": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 15,
+    "temps_cuisson": 25
+  },
+  {
+    "id": "poivrons_farcis_tunisiens",
+    "name": {
+      "fr": "Poivrons farcis tunisiens",
+      "en": "Stuffed Peppers",
+      "ar": "فلفل محشي"
+    },
+    "aliases": [
+      "poivrons farcis tunisiens"
+    ],
+    "ingredients": [
+      {
+        "nom": "poivrons",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "riz",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "viande hachée",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 2,
+        "unite": ""
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Préparer et couper les ingrédients.",
+        "Faire revenir les bases aromatiques.",
+        "Ajouter le reste des ingrédients principaux.",
+        "Cuire jusqu’à obtention de la texture souhaitée.",
+        "Servir chaud ou tiède selon la recette."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat"
+    ],
+    "nutrition": {
+      "calories": 410,
+      "healthy": false,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 15,
+    "temps_cuisson": 25
+  },
+  {
+    "id": "poêlee_tunisienne_1_au_thon_et_pommes_de_terre",
+    "name": {
+      "fr": "Poêlée tunisienne 1 au thon et pommes de terre",
+      "en": "Tunisian Skillet 1 with Tuna and Potato",
+      "ar": "طاجن تونسي 1 بـتونة وبطاطا"
+    },
+    "aliases": [
+      "thon",
+      "pommes de terre"
+    ],
+    "ingredients": [
+      {
+        "nom": "thon",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "pommes de terre",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le thon et le faire cuire.",
+        "Ajouter pommes de terre et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 360,
+      "healthy": true,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_2_au_merguez_et_petits_pois",
+    "name": {
+      "fr": "Poêlée tunisienne 2 au merguez et petits pois",
+      "en": "Tunisian Skillet 2 with Merguez and Peas",
+      "ar": "طاجن تونسي 2 بـمرقاز وجلبانة"
+    },
+    "aliases": [
+      "merguez",
+      "petits pois"
+    ],
+    "ingredients": [
+      {
+        "nom": "merguez",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "petits pois",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le merguez et le faire cuire.",
+        "Ajouter petits pois et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 440,
+      "healthy": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_3_au_thon_et_pommes_de_terre",
+    "name": {
+      "fr": "Poêlée tunisienne 3 au thon et pommes de terre",
+      "en": "Tunisian Skillet 3 with Tuna and Potato",
+      "ar": "طاجن تونسي 3 بـتونة وبطاطا"
+    },
+    "aliases": [
+      "thon",
+      "pommes de terre"
+    ],
+    "ingredients": [
+      {
+        "nom": "thon",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "pommes de terre",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le thon et le faire cuire.",
+        "Ajouter pommes de terre et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 360,
+      "healthy": true,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_4_au_merguez_et_petits_pois",
+    "name": {
+      "fr": "Poêlée tunisienne 4 au merguez et petits pois",
+      "en": "Tunisian Skillet 4 with Merguez and Peas",
+      "ar": "طاجن تونسي 4 بـمرقاز وجلبانة"
+    },
+    "aliases": [
+      "merguez",
+      "petits pois"
+    ],
+    "ingredients": [
+      {
+        "nom": "merguez",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "petits pois",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le merguez et le faire cuire.",
+        "Ajouter petits pois et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 440,
+      "healthy": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_5_au_thon_et_pommes_de_terre",
+    "name": {
+      "fr": "Poêlée tunisienne 5 au thon et pommes de terre",
+      "en": "Tunisian Skillet 5 with Tuna and Potato",
+      "ar": "طاجن تونسي 5 بـتونة وبطاطا"
+    },
+    "aliases": [
+      "thon",
+      "pommes de terre"
+    ],
+    "ingredients": [
+      {
+        "nom": "thon",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "pommes de terre",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le thon et le faire cuire.",
+        "Ajouter pommes de terre et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 360,
+      "healthy": true,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_6_au_merguez_et_petits_pois",
+    "name": {
+      "fr": "Poêlée tunisienne 6 au merguez et petits pois",
+      "en": "Tunisian Skillet 6 with Merguez and Peas",
+      "ar": "طاجن تونسي 6 بـمرقاز وجلبانة"
+    },
+    "aliases": [
+      "merguez",
+      "petits pois"
+    ],
+    "ingredients": [
+      {
+        "nom": "merguez",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "petits pois",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le merguez et le faire cuire.",
+        "Ajouter petits pois et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 440,
+      "healthy": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_7_au_thon_et_pommes_de_terre",
+    "name": {
+      "fr": "Poêlée tunisienne 7 au thon et pommes de terre",
+      "en": "Tunisian Skillet 7 with Tuna and Potato",
+      "ar": "طاجن تونسي 7 بـتونة وبطاطا"
+    },
+    "aliases": [
+      "thon",
+      "pommes de terre"
+    ],
+    "ingredients": [
+      {
+        "nom": "thon",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "pommes de terre",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le thon et le faire cuire.",
+        "Ajouter pommes de terre et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 360,
+      "healthy": true,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_8_au_merguez_et_petits_pois",
+    "name": {
+      "fr": "Poêlée tunisienne 8 au merguez et petits pois",
+      "en": "Tunisian Skillet 8 with Merguez and Peas",
+      "ar": "طاجن تونسي 8 بـمرقاز وجلبانة"
+    },
+    "aliases": [
+      "merguez",
+      "petits pois"
+    ],
+    "ingredients": [
+      {
+        "nom": "merguez",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "petits pois",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le merguez et le faire cuire.",
+        "Ajouter petits pois et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 440,
+      "healthy": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_9_au_thon_et_pommes_de_terre",
+    "name": {
+      "fr": "Poêlée tunisienne 9 au thon et pommes de terre",
+      "en": "Tunisian Skillet 9 with Tuna and Potato",
+      "ar": "طاجن تونسي 9 بـتونة وبطاطا"
+    },
+    "aliases": [
+      "thon",
+      "pommes de terre"
+    ],
+    "ingredients": [
+      {
+        "nom": "thon",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "pommes de terre",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le thon et le faire cuire.",
+        "Ajouter pommes de terre et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 360,
+      "healthy": true,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_10_au_merguez_et_petits_pois",
+    "name": {
+      "fr": "Poêlée tunisienne 10 au merguez et petits pois",
+      "en": "Tunisian Skillet 10 with Merguez and Peas",
+      "ar": "طاجن تونسي 10 بـمرقاز وجلبانة"
+    },
+    "aliases": [
+      "merguez",
+      "petits pois"
+    ],
+    "ingredients": [
+      {
+        "nom": "merguez",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "petits pois",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le merguez et le faire cuire.",
+        "Ajouter petits pois et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 440,
+      "healthy": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_11_au_thon_et_pommes_de_terre",
+    "name": {
+      "fr": "Poêlée tunisienne 11 au thon et pommes de terre",
+      "en": "Tunisian Skillet 11 with Tuna and Potato",
+      "ar": "طاجن تونسي 11 بـتونة وبطاطا"
+    },
+    "aliases": [
+      "thon",
+      "pommes de terre"
+    ],
+    "ingredients": [
+      {
+        "nom": "thon",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "pommes de terre",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le thon et le faire cuire.",
+        "Ajouter pommes de terre et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 360,
+      "healthy": true,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_12_au_merguez_et_petits_pois",
+    "name": {
+      "fr": "Poêlée tunisienne 12 au merguez et petits pois",
+      "en": "Tunisian Skillet 12 with Merguez and Peas",
+      "ar": "طاجن تونسي 12 بـمرقاز وجلبانة"
+    },
+    "aliases": [
+      "merguez",
+      "petits pois"
+    ],
+    "ingredients": [
+      {
+        "nom": "merguez",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "petits pois",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le merguez et le faire cuire.",
+        "Ajouter petits pois et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 440,
+      "healthy": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_13_au_thon_et_pommes_de_terre",
+    "name": {
+      "fr": "Poêlée tunisienne 13 au thon et pommes de terre",
+      "en": "Tunisian Skillet 13 with Tuna and Potato",
+      "ar": "طاجن تونسي 13 بـتونة وبطاطا"
+    },
+    "aliases": [
+      "thon",
+      "pommes de terre"
+    ],
+    "ingredients": [
+      {
+        "nom": "thon",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "pommes de terre",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le thon et le faire cuire.",
+        "Ajouter pommes de terre et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 360,
+      "healthy": true,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_14_au_merguez_et_petits_pois",
+    "name": {
+      "fr": "Poêlée tunisienne 14 au merguez et petits pois",
+      "en": "Tunisian Skillet 14 with Merguez and Peas",
+      "ar": "طاجن تونسي 14 بـمرقاز وجلبانة"
+    },
+    "aliases": [
+      "merguez",
+      "petits pois"
+    ],
+    "ingredients": [
+      {
+        "nom": "merguez",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "petits pois",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le merguez et le faire cuire.",
+        "Ajouter petits pois et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 440,
+      "healthy": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_15_au_thon_et_pommes_de_terre",
+    "name": {
+      "fr": "Poêlée tunisienne 15 au thon et pommes de terre",
+      "en": "Tunisian Skillet 15 with Tuna and Potato",
+      "ar": "طاجن تونسي 15 بـتونة وبطاطا"
+    },
+    "aliases": [
+      "thon",
+      "pommes de terre"
+    ],
+    "ingredients": [
+      {
+        "nom": "thon",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "pommes de terre",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le thon et le faire cuire.",
+        "Ajouter pommes de terre et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 360,
+      "healthy": true,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_16_au_merguez_et_petits_pois",
+    "name": {
+      "fr": "Poêlée tunisienne 16 au merguez et petits pois",
+      "en": "Tunisian Skillet 16 with Merguez and Peas",
+      "ar": "طاجن تونسي 16 بـمرقاز وجلبانة"
+    },
+    "aliases": [
+      "merguez",
+      "petits pois"
+    ],
+    "ingredients": [
+      {
+        "nom": "merguez",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "petits pois",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le merguez et le faire cuire.",
+        "Ajouter petits pois et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 440,
+      "healthy": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_17_au_thon_et_pommes_de_terre",
+    "name": {
+      "fr": "Poêlée tunisienne 17 au thon et pommes de terre",
+      "en": "Tunisian Skillet 17 with Tuna and Potato",
+      "ar": "طاجن تونسي 17 بـتونة وبطاطا"
+    },
+    "aliases": [
+      "thon",
+      "pommes de terre"
+    ],
+    "ingredients": [
+      {
+        "nom": "thon",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "pommes de terre",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le thon et le faire cuire.",
+        "Ajouter pommes de terre et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 360,
+      "healthy": true,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_18_au_merguez_et_petits_pois",
+    "name": {
+      "fr": "Poêlée tunisienne 18 au merguez et petits pois",
+      "en": "Tunisian Skillet 18 with Merguez and Peas",
+      "ar": "طاجن تونسي 18 بـمرقاز وجلبانة"
+    },
+    "aliases": [
+      "merguez",
+      "petits pois"
+    ],
+    "ingredients": [
+      {
+        "nom": "merguez",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "petits pois",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le merguez et le faire cuire.",
+        "Ajouter petits pois et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 440,
+      "healthy": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_19_au_thon_et_pommes_de_terre",
+    "name": {
+      "fr": "Poêlée tunisienne 19 au thon et pommes de terre",
+      "en": "Tunisian Skillet 19 with Tuna and Potato",
+      "ar": "طاجن تونسي 19 بـتونة وبطاطا"
+    },
+    "aliases": [
+      "thon",
+      "pommes de terre"
+    ],
+    "ingredients": [
+      {
+        "nom": "thon",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "pommes de terre",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le thon et le faire cuire.",
+        "Ajouter pommes de terre et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 360,
+      "healthy": true,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_20_au_merguez_et_petits_pois",
+    "name": {
+      "fr": "Poêlée tunisienne 20 au merguez et petits pois",
+      "en": "Tunisian Skillet 20 with Merguez and Peas",
+      "ar": "طاجن تونسي 20 بـمرقاز وجلبانة"
+    },
+    "aliases": [
+      "merguez",
+      "petits pois"
+    ],
+    "ingredients": [
+      {
+        "nom": "merguez",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "petits pois",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le merguez et le faire cuire.",
+        "Ajouter petits pois et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 440,
+      "healthy": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_21_au_thon_et_pommes_de_terre",
+    "name": {
+      "fr": "Poêlée tunisienne 21 au thon et pommes de terre",
+      "en": "Tunisian Skillet 21 with Tuna and Potato",
+      "ar": "طاجن تونسي 21 بـتونة وبطاطا"
+    },
+    "aliases": [
+      "thon",
+      "pommes de terre"
+    ],
+    "ingredients": [
+      {
+        "nom": "thon",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "pommes de terre",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le thon et le faire cuire.",
+        "Ajouter pommes de terre et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 360,
+      "healthy": true,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_22_au_merguez_et_petits_pois",
+    "name": {
+      "fr": "Poêlée tunisienne 22 au merguez et petits pois",
+      "en": "Tunisian Skillet 22 with Merguez and Peas",
+      "ar": "طاجن تونسي 22 بـمرقاز وجلبانة"
+    },
+    "aliases": [
+      "merguez",
+      "petits pois"
+    ],
+    "ingredients": [
+      {
+        "nom": "merguez",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "petits pois",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le merguez et le faire cuire.",
+        "Ajouter petits pois et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 440,
+      "healthy": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_23_au_thon_et_pommes_de_terre",
+    "name": {
+      "fr": "Poêlée tunisienne 23 au thon et pommes de terre",
+      "en": "Tunisian Skillet 23 with Tuna and Potato",
+      "ar": "طاجن تونسي 23 بـتونة وبطاطا"
+    },
+    "aliases": [
+      "thon",
+      "pommes de terre"
+    ],
+    "ingredients": [
+      {
+        "nom": "thon",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "pommes de terre",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le thon et le faire cuire.",
+        "Ajouter pommes de terre et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 360,
+      "healthy": true,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_24_au_merguez_et_petits_pois",
+    "name": {
+      "fr": "Poêlée tunisienne 24 au merguez et petits pois",
+      "en": "Tunisian Skillet 24 with Merguez and Peas",
+      "ar": "طاجن تونسي 24 بـمرقاز وجلبانة"
+    },
+    "aliases": [
+      "merguez",
+      "petits pois"
+    ],
+    "ingredients": [
+      {
+        "nom": "merguez",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "petits pois",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le merguez et le faire cuire.",
+        "Ajouter petits pois et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 440,
+      "healthy": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_25_au_thon_et_pommes_de_terre",
+    "name": {
+      "fr": "Poêlée tunisienne 25 au thon et pommes de terre",
+      "en": "Tunisian Skillet 25 with Tuna and Potato",
+      "ar": "طاجن تونسي 25 بـتونة وبطاطا"
+    },
+    "aliases": [
+      "thon",
+      "pommes de terre"
+    ],
+    "ingredients": [
+      {
+        "nom": "thon",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "pommes de terre",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le thon et le faire cuire.",
+        "Ajouter pommes de terre et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 360,
+      "healthy": true,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_26_au_merguez_et_petits_pois",
+    "name": {
+      "fr": "Poêlée tunisienne 26 au merguez et petits pois",
+      "en": "Tunisian Skillet 26 with Merguez and Peas",
+      "ar": "طاجن تونسي 26 بـمرقاز وجلبانة"
+    },
+    "aliases": [
+      "merguez",
+      "petits pois"
+    ],
+    "ingredients": [
+      {
+        "nom": "merguez",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "petits pois",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le merguez et le faire cuire.",
+        "Ajouter petits pois et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 440,
+      "healthy": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_27_au_thon_et_pommes_de_terre",
+    "name": {
+      "fr": "Poêlée tunisienne 27 au thon et pommes de terre",
+      "en": "Tunisian Skillet 27 with Tuna and Potato",
+      "ar": "طاجن تونسي 27 بـتونة وبطاطا"
+    },
+    "aliases": [
+      "thon",
+      "pommes de terre"
+    ],
+    "ingredients": [
+      {
+        "nom": "thon",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "pommes de terre",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le thon et le faire cuire.",
+        "Ajouter pommes de terre et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 360,
+      "healthy": true,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_28_au_merguez_et_petits_pois",
+    "name": {
+      "fr": "Poêlée tunisienne 28 au merguez et petits pois",
+      "en": "Tunisian Skillet 28 with Merguez and Peas",
+      "ar": "طاجن تونسي 28 بـمرقاز وجلبانة"
+    },
+    "aliases": [
+      "merguez",
+      "petits pois"
+    ],
+    "ingredients": [
+      {
+        "nom": "merguez",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "petits pois",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le merguez et le faire cuire.",
+        "Ajouter petits pois et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 440,
+      "healthy": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_29_au_thon_et_pommes_de_terre",
+    "name": {
+      "fr": "Poêlée tunisienne 29 au thon et pommes de terre",
+      "en": "Tunisian Skillet 29 with Tuna and Potato",
+      "ar": "طاجن تونسي 29 بـتونة وبطاطا"
+    },
+    "aliases": [
+      "thon",
+      "pommes de terre"
+    ],
+    "ingredients": [
+      {
+        "nom": "thon",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "pommes de terre",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le thon et le faire cuire.",
+        "Ajouter pommes de terre et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 360,
+      "healthy": true,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_30_au_merguez_et_petits_pois",
+    "name": {
+      "fr": "Poêlée tunisienne 30 au merguez et petits pois",
+      "en": "Tunisian Skillet 30 with Merguez and Peas",
+      "ar": "طاجن تونسي 30 بـمرقاز وجلبانة"
+    },
+    "aliases": [
+      "merguez",
+      "petits pois"
+    ],
+    "ingredients": [
+      {
+        "nom": "merguez",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "petits pois",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le merguez et le faire cuire.",
+        "Ajouter petits pois et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 440,
+      "healthy": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_31_au_thon_et_pommes_de_terre",
+    "name": {
+      "fr": "Poêlée tunisienne 31 au thon et pommes de terre",
+      "en": "Tunisian Skillet 31 with Tuna and Potato",
+      "ar": "طاجن تونسي 31 بـتونة وبطاطا"
+    },
+    "aliases": [
+      "thon",
+      "pommes de terre"
+    ],
+    "ingredients": [
+      {
+        "nom": "thon",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "pommes de terre",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le thon et le faire cuire.",
+        "Ajouter pommes de terre et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 360,
+      "healthy": true,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_32_au_merguez_et_petits_pois",
+    "name": {
+      "fr": "Poêlée tunisienne 32 au merguez et petits pois",
+      "en": "Tunisian Skillet 32 with Merguez and Peas",
+      "ar": "طاجن تونسي 32 بـمرقاز وجلبانة"
+    },
+    "aliases": [
+      "merguez",
+      "petits pois"
+    ],
+    "ingredients": [
+      {
+        "nom": "merguez",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "petits pois",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le merguez et le faire cuire.",
+        "Ajouter petits pois et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 440,
+      "healthy": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_33_au_thon_et_pommes_de_terre",
+    "name": {
+      "fr": "Poêlée tunisienne 33 au thon et pommes de terre",
+      "en": "Tunisian Skillet 33 with Tuna and Potato",
+      "ar": "طاجن تونسي 33 بـتونة وبطاطا"
+    },
+    "aliases": [
+      "thon",
+      "pommes de terre"
+    ],
+    "ingredients": [
+      {
+        "nom": "thon",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "pommes de terre",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le thon et le faire cuire.",
+        "Ajouter pommes de terre et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 360,
+      "healthy": true,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_34_au_merguez_et_petits_pois",
+    "name": {
+      "fr": "Poêlée tunisienne 34 au merguez et petits pois",
+      "en": "Tunisian Skillet 34 with Merguez and Peas",
+      "ar": "طاجن تونسي 34 بـمرقاز وجلبانة"
+    },
+    "aliases": [
+      "merguez",
+      "petits pois"
+    ],
+    "ingredients": [
+      {
+        "nom": "merguez",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "petits pois",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le merguez et le faire cuire.",
+        "Ajouter petits pois et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 440,
+      "healthy": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_35_au_thon_et_pommes_de_terre",
+    "name": {
+      "fr": "Poêlée tunisienne 35 au thon et pommes de terre",
+      "en": "Tunisian Skillet 35 with Tuna and Potato",
+      "ar": "طاجن تونسي 35 بـتونة وبطاطا"
+    },
+    "aliases": [
+      "thon",
+      "pommes de terre"
+    ],
+    "ingredients": [
+      {
+        "nom": "thon",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "pommes de terre",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le thon et le faire cuire.",
+        "Ajouter pommes de terre et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 360,
+      "healthy": true,
+      "light": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  },
+  {
+    "id": "poêlee_tunisienne_36_au_merguez_et_petits_pois",
+    "name": {
+      "fr": "Poêlée tunisienne 36 au merguez et petits pois",
+      "en": "Tunisian Skillet 36 with Merguez and Peas",
+      "ar": "طاجن تونسي 36 بـمرقاز وجلبانة"
+    },
+    "aliases": [
+      "merguez",
+      "petits pois"
+    ],
+    "ingredients": [
+      {
+        "nom": "merguez",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "petits pois",
+        "quantite": 2,
+        "unite": ""
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": ""
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "gousses"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": 2,
+        "unite": "c.à.s"
+      }
+    ],
+    "steps": {
+      "fr": [
+        "Couper les ingrédients en morceaux réguliers.",
+        "Faire revenir l’oignon et l’ail dans l’huile.",
+        "Ajouter le merguez et le faire cuire.",
+        "Ajouter petits pois et poursuivre la cuisson quelques minutes.",
+        "Assaisonner puis servir chaud."
+      ],
+      "en": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5"
+      ],
+      "ar": [
+        "الخطوة 1",
+        "الخطوة 2",
+        "الخطوة 3",
+        "الخطوة 4",
+        "الخطوة 5"
+      ]
+    },
+    "tags": [
+      "tunisien",
+      "plat",
+      "poelee"
+    ],
+    "nutrition": {
+      "calories": 440,
+      "healthy": false
+    },
+    "difficulty": "facile",
+    "temps_prep": 10,
+    "temps_cuisson": 20
+  }
+]
