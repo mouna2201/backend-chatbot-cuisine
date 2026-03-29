@@ -7316,4 +7316,1460 @@
     "temps_prep": 10,
     "temps_cuisson": 20
   }
+
+
+  {
+    "id": "pizza-margherita",
+    "name": { "fr": "Pizza Margherita", "en": "Margherita Pizza", "ar": "بيتزا مارغريتا" },
+    "aliases": ["pizza", "pizza margherita", "بيتزا"],
+    "ingredients": [
+      {"nom": "farine", "quantite": 300, "unite": "g"},
+      {"nom": "levure", "quantite": 7, "unite": "g"},
+      {"nom": "eau tiède", "quantite": 180, "unite": "ml"},
+      {"nom": "huile d'olive", "quantite": 2, "unite": "c.à.s"},
+      {"nom": "sel", "quantite": 1, "unite": "c.à.c"},
+      {"nom": "tomates concassées", "quantite": 200, "unite": "g"},
+      {"nom": "mozzarella", "quantite": 150, "unite": "g"},
+      {"nom": "basilic", "quantite": 5, "unite": "feuilles"}
+    ],
+    "ingredients_simple": ["farine", "levure", "eau", "huile d'olive", "sel", "tomates", "mozzarella", "basilic"],
+    "steps": {
+      "fr": [
+        "Mélanger la farine, la levure, le sel et l'eau tiède. Pétrir 10 min jusqu'à pâte lisse.",
+        "Ajouter l'huile d'olive et pétrir encore 5 min. Laisser lever 1h à couvert.",
+        "Préchauffer le four à 220°C. Étaler la pâte en cercle fin sur une plaque.",
+        "Étaler les tomates concassées sur la pâte. Ajouter la mozzarella en tranches.",
+        "Enfourner 12 à 15 min jusqu'à ce que la pâte soit dorée.",
+        "Ajouter les feuilles de basilic frais et servir immédiatement."
+      ],
+      "en": [
+        "Mix flour, yeast, salt and warm water. Knead 10 min until smooth.",
+        "Add olive oil and knead 5 more min. Cover and let rise 1 hour.",
+        "Preheat oven to 220°C. Roll dough into a thin circle on a baking tray.",
+        "Spread crushed tomatoes on dough. Add sliced mozzarella.",
+        "Bake 12-15 min until crust is golden.",
+        "Add fresh basil leaves and serve immediately."
+      ],
+      "ar": [
+        "اخلطي الدقيق والخميرة والملح والماء الدافئ. اعجني 10 دقائق.",
+        "أضيفي زيت الزيتون واعجني 5 دقائق أخرى. غطي واتركي ترتفع ساعة.",
+        "سخني الفرن 220 درجة. افردي العجينة دائرة رفيعة على الصينية.",
+        "افردي الطماطم على العجينة. أضيفي الموزاريلا.",
+        "اخبزي 12-15 دقيقة حتى تذهب العجينة.",
+        "أضيفي أوراق الريحان وقدمي فوراً."
+      ]
+    },
+    "astuces": ["La pâte doit être très fine pour une pizza croustillante.", "Ajouter un filet d'huile d'olive après cuisson pour plus de goût."],
+    "tags": ["international", "plat principal", "four", "végétarien"],
+    "nutrition": {"calories": 650, "healthy": false, "light": false},
+    "temps_prep": 20, "temps_repos": 60, "temps_cuisson": 15, "difficulte": "moyen", "nb_personnes": 2
+  },
+  {
+    "id": "pizza-thon",
+    "name": { "fr": "Pizza au thon", "en": "Tuna Pizza", "ar": "بيتزا بالتونة" },
+    "aliases": ["pizza thon", "pizza tuna", "بيتزا تونة"],
+    "ingredients": [
+      {"nom": "farine", "quantite": 300, "unite": "g"},
+      {"nom": "levure", "quantite": 7, "unite": "g"},
+      {"nom": "eau tiède", "quantite": 180, "unite": "ml"},
+      {"nom": "huile d'olive", "quantite": 2, "unite": "c.à.s"},
+      {"nom": "sel", "quantite": 1, "unite": "c.à.c"},
+      {"nom": "tomates concassées", "quantite": 200, "unite": "g"},
+      {"nom": "thon en boîte", "quantite": 160, "unite": "g"},
+      {"nom": "oignon", "quantite": 1, "unite": "pièce"},
+      {"nom": "fromage râpé", "quantite": 100, "unite": "g"},
+      {"nom": "olives", "quantite": 10, "unite": "pièces"}
+    ],
+    "ingredients_simple": ["farine", "levure", "eau", "huile d'olive", "tomates", "thon en boîte", "oignon", "fromage râpé", "olives"],
+    "steps": {
+      "fr": [
+        "Préparer la pâte : mélanger farine, levure, sel, eau et huile. Pétrir 10 min. Laisser lever 1h.",
+        "Étaler la pâte sur une plaque huilée. Préchauffer le four à 220°C.",
+        "Étaler les tomates concassées. Ajouter l'oignon émincé et le thon égoutté.",
+        "Parsemer de fromage râpé et de quelques olives.",
+        "Enfourner 15 min jusqu'à dorure. Servir chaud."
+      ],
+      "en": [
+        "Make dough: mix flour, yeast, salt, water and oil. Knead 10 min. Let rise 1h.",
+        "Roll dough on oiled tray. Preheat oven to 220°C.",
+        "Spread crushed tomatoes. Add sliced onion and drained tuna.",
+        "Sprinkle with grated cheese and olives.",
+        "Bake 15 min until golden. Serve hot."
+      ],
+      "ar": [
+        "حضري العجينة: اخلطي الدقيق والخميرة والملح والماء والزيت. اعجني 10 دقائق. اتركي ترتفع ساعة.",
+        "افردي العجينة على صينية مدهونة. سخني الفرن 220 درجة.",
+        "افردي الطماطم. أضيفي البصل المقطع والتونة المصفاة.",
+        "رشي الجبن المبشور والزيتون.",
+        "اخبزي 15 دقيقة حتى تذهب. قدمي ساخنة."
+      ]
+    },
+    "astuces": ["Ajouter de la harissa pour une touche tunisienne.", "Peut se faire avec des restes de pâte de la veille."],
+    "tags": ["international", "plat principal", "four", "thon"],
+    "nutrition": {"calories": 580, "healthy": false, "light": false},
+    "temps_prep": 20, "temps_repos": 60, "temps_cuisson": 15, "difficulte": "moyen", "nb_personnes": 2
+  },
+  {
+    "id": "crepes-sucrees",
+    "name": { "fr": "Crêpes sucrées", "en": "Sweet Crepes", "ar": "كريب حلو" },
+    "aliases": ["crepe", "crêpe", "crêpes", "crepes", "كريب"],
+    "ingredients": [
+      {"nom": "farine", "quantite": 250, "unite": "g"},
+      {"nom": "oeufs", "quantite": 3, "unite": "pièces"},
+      {"nom": "lait", "quantite": 500, "unite": "ml"},
+      {"nom": "beurre fondu", "quantite": 50, "unite": "g"},
+      {"nom": "sucre", "quantite": 2, "unite": "c.à.s"},
+      {"nom": "sel", "quantite": 1, "unite": "pincée"},
+      {"nom": "extrait de vanille", "quantite": 1, "unite": "c.à.c"}
+    ],
+    "ingredients_simple": ["farine", "oeufs", "lait", "beurre", "sucre", "sel", "vanille"],
+    "steps": {
+      "fr": [
+        "Mélanger la farine, le sucre et le sel dans un grand bol.",
+        "Creuser un puits, ajouter les oeufs et commencer à mélanger.",
+        "Verser le lait progressivement en fouettant pour éviter les grumeaux.",
+        "Ajouter le beurre fondu et la vanille. Laisser reposer 30 min.",
+        "Faire chauffer une poêle légèrement huilée à feu moyen.",
+        "Verser une louche de pâte et incliner la poêle pour étaler.",
+        "Cuire 1 min de chaque côté. Servir avec miel, confiture ou Nutella."
+      ],
+      "en": [
+        "Mix flour, sugar and salt in a large bowl.",
+        "Make a well, add eggs and start mixing.",
+        "Pour milk gradually while whisking to avoid lumps.",
+        "Add melted butter and vanilla. Rest 30 min.",
+        "Heat a lightly oiled pan over medium heat.",
+        "Pour a ladle of batter and tilt pan to spread.",
+        "Cook 1 min each side. Serve with honey, jam or Nutella."
+      ],
+      "ar": [
+        "اخلطي الدقيق والسكر والملح في وعاء كبير.",
+        "اصنعي حفرة في المنتصف، أضيفي البيض وابدئي بالخلط.",
+        "صبي الحليب تدريجياً مع الخفق لتجنب التكتل.",
+        "أضيفي الزبدة المذابة والفانيليا. اتركي ترتاح 30 دقيقة.",
+        "سخني مقلاة مدهونة قليلاً على نار متوسطة.",
+        "صبي مغرفة من العجينة وحركي المقلاة لتوزيعها.",
+        "اطبخي دقيقة من كل جهة. قدمي مع العسل أو المربى أو النوتيلا."
+      ]
+    },
+    "astuces": ["La pâte au repos donne des crêpes plus légères.", "Ajouter une cuillère d'eau de fleur d'oranger pour un goût oriental."],
+    "tags": ["international", "dessert", "petit déjeuner", "rapide", "végétarien"],
+    "nutrition": {"calories": 320, "healthy": false, "light": true},
+    "temps_prep": 10, "temps_repos": 30, "temps_cuisson": 20, "difficulte": "facile", "nb_personnes": 4
+  },
+  {
+    "id": "crepes-salees",
+    "name": { "fr": "Crêpes salées au thon", "en": "Savory Tuna Crepes", "ar": "كريب مالح بالتونة" },
+    "aliases": ["crepe salee", "crêpe salée", "كريب مالح"],
+    "ingredients": [
+      {"nom": "farine", "quantite": 250, "unite": "g"},
+      {"nom": "oeufs", "quantite": 3, "unite": "pièces"},
+      {"nom": "lait", "quantite": 500, "unite": "ml"},
+      {"nom": "beurre fondu", "quantite": 30, "unite": "g"},
+      {"nom": "sel", "quantite": 1, "unite": "c.à.c"},
+      {"nom": "thon en boîte", "quantite": 160, "unite": "g"},
+      {"nom": "fromage râpé", "quantite": 80, "unite": "g"},
+      {"nom": "tomates", "quantite": 2, "unite": "pièces"},
+      {"nom": "harissa", "quantite": 1, "unite": "c.à.c"}
+    ],
+    "ingredients_simple": ["farine", "oeufs", "lait", "beurre", "sel", "thon en boîte", "fromage râpé", "tomates", "harissa"],
+    "steps": {
+      "fr": [
+        "Préparer la pâte à crêpes salée : mélanger farine, sel, oeufs, lait et beurre. Reposer 20 min.",
+        "Cuire les crêpes à la poêle légèrement huilée, 1 min chaque côté.",
+        "Préparer la garniture : mélanger thon, tomates coupées en dés et harissa.",
+        "Garnir chaque crêpe avec la garniture et le fromage râpé.",
+        "Plier en quatre et servir chaud."
+      ],
+      "en": [
+        "Make savory crepe batter: mix flour, salt, eggs, milk and butter. Rest 20 min.",
+        "Cook crepes in lightly oiled pan, 1 min each side.",
+        "Prepare filling: mix tuna, diced tomatoes and harissa.",
+        "Fill each crepe with filling and grated cheese.",
+        "Fold into quarters and serve hot."
+      ],
+      "ar": [
+        "حضري عجينة الكريب المالح: اخلطي الدقيق والملح والبيض والحليب والزبدة. اتركي 20 دقيقة.",
+        "اطبخي الكريب في مقلاة مدهونة قليلاً، دقيقة من كل جهة.",
+        "حضري الحشوة: اخلطي التونة والطماطم المقطعة والهريسة.",
+        "احشي كل كريبة بالحشوة والجبن المبشور.",
+        "اطوي إلى أرباع وقدمي ساخناً."
+      ]
+    },
+    "astuces": ["Variante : remplacer le thon par du poulet grillé.", "Ajouter des olives pour plus de goût."],
+    "tags": ["international", "plat principal", "rapide", "thon"],
+    "nutrition": {"calories": 420, "healthy": false, "light": false},
+    "temps_prep": 15, "temps_repos": 20, "temps_cuisson": 20, "difficulte": "facile", "nb_personnes": 4
+  },
+  {
+    "id": "lasagne-viande",
+    "name": { "fr": "Lasagne à la viande", "en": "Meat Lasagna", "ar": "لازانيا باللحم" },
+    "aliases": ["lasagne", "lasagna", "لازانيا", "lazagne"],
+    "ingredients": [
+      {"nom": "feuilles de lasagne", "quantite": 250, "unite": "g"},
+      {"nom": "viande hachée", "quantite": 500, "unite": "g"},
+      {"nom": "tomates concassées", "quantite": 400, "unite": "g"},
+      {"nom": "oignon", "quantite": 1, "unite": "pièce"},
+      {"nom": "ail", "quantite": 3, "unite": "gousses"},
+      {"nom": "lait", "quantite": 500, "unite": "ml"},
+      {"nom": "farine", "quantite": 50, "unite": "g"},
+      {"nom": "beurre", "quantite": 50, "unite": "g"},
+      {"nom": "fromage râpé", "quantite": 150, "unite": "g"},
+      {"nom": "huile d'olive", "quantite": 2, "unite": "c.à.s"},
+      {"nom": "sel", "quantite": 1, "unite": "c.à.c"},
+      {"nom": "poivre", "quantite": 0.5, "unite": "c.à.c"}
+    ],
+    "ingredients_simple": ["feuilles de lasagne", "viande hachée", "tomates", "oignon", "ail", "lait", "farine", "beurre", "fromage râpé", "huile d'olive"],
+    "steps": {
+      "fr": [
+        "Sauce bolognaise : faire revenir oignon et ail dans l'huile. Ajouter la viande hachée et dorer.",
+        "Ajouter les tomates concassées, saler, poivrer. Mijoter 20 min.",
+        "Béchamel : faire fondre le beurre, ajouter la farine, puis le lait progressivement. Fouetter sans arrêt jusqu'à épaississement.",
+        "Préchauffer le four à 180°C. Dans un grand plat, alterner : béchamel, feuilles de lasagne, bolognaise.",
+        "Répéter les couches 3 fois. Finir par la béchamel et le fromage râpé.",
+        "Enfourner 30 à 35 min jusqu'à ce que le dessus soit doré."
+      ],
+      "en": [
+        "Bolognese sauce: sauté onion and garlic in oil. Add ground meat and brown.",
+        "Add crushed tomatoes, salt and pepper. Simmer 20 min.",
+        "Béchamel: melt butter, add flour, then gradually add milk. Whisk continuously until thickened.",
+        "Preheat oven to 180°C. In a large dish, alternate: béchamel, lasagne sheets, bolognese.",
+        "Repeat layers 3 times. Finish with béchamel and grated cheese.",
+        "Bake 30-35 min until top is golden."
+      ],
+      "ar": [
+        "صلصة البولونيز: قلي البصل والثوم في الزيت. أضيفي اللحم المفروم واحمريه.",
+        "أضيفي الطماطم والملح والفلفل. اتركي تغلي 20 دقيقة.",
+        "البشاميل: أذيبي الزبدة، أضيفي الدقيق ثم الحليب تدريجياً. اخفقي باستمرار حتى يتكثف.",
+        "سخني الفرن 180 درجة. في طبق كبير، بادلي: بشاميل، أوراق لازانيا، بولونيز.",
+        "كرري الطبقات 3 مرات. أنهي بالبشاميل والجبن المبشور.",
+        "اخبزي 30-35 دقيقة حتى يذهب الوجه."
+      ]
+    },
+    "astuces": ["Préparer à l'avance et réchauffer — encore meilleure le lendemain.", "Ajouter de la noix de muscade dans la béchamel."],
+    "tags": ["international", "plat principal", "viande", "four", "famille"],
+    "nutrition": {"calories": 750, "healthy": false, "light": false},
+    "temps_prep": 30, "temps_cuisson": 55, "difficulte": "moyen", "nb_personnes": 6
+  },
+  {
+    "id": "hamburger-maison",
+    "name": { "fr": "Hamburger maison", "en": "Homemade Burger", "ar": "برغر بيتي" },
+    "aliases": ["burger", "hamburger", "برغر"],
+    "ingredients": [
+      {"nom": "viande hachée", "quantite": 400, "unite": "g"},
+      {"nom": "pain burger", "quantite": 4, "unite": "pièces"},
+      {"nom": "tomates", "quantite": 2, "unite": "pièces"},
+      {"nom": "salade", "quantite": 4, "unite": "feuilles"},
+      {"nom": "oignon", "quantite": 1, "unite": "pièce"},
+      {"nom": "fromage fondu", "quantite": 4, "unite": "tranches"},
+      {"nom": "ketchup", "quantite": 3, "unite": "c.à.s"},
+      {"nom": "moutarde", "quantite": 1, "unite": "c.à.s"},
+      {"nom": "sel", "quantite": 1, "unite": "c.à.c"},
+      {"nom": "poivre", "quantite": 0.5, "unite": "c.à.c"}
+    ],
+    "ingredients_simple": ["viande hachée", "pain burger", "tomates", "salade", "oignon", "fromage fondu", "ketchup", "moutarde", "sel", "poivre"],
+    "steps": {
+      "fr": [
+        "Assaisonner la viande hachée avec sel et poivre. Former 4 steaks de 100g.",
+        "Faire griller les steaks 3 à 4 min de chaque côté à feu vif.",
+        "Poser une tranche de fromage sur chaque steak en fin de cuisson. Laisser fondre 1 min.",
+        "Toaster les pains. Tartiner de ketchup et moutarde.",
+        "Assembler : pain, salade, tomate, steak fromage, oignon. Couvrir avec le chapeau du pain.",
+        "Servir avec des frites ou une salade."
+      ],
+      "en": [
+        "Season ground meat with salt and pepper. Shape into 4 patties of 100g.",
+        "Grill patties 3-4 min each side over high heat.",
+        "Place a cheese slice on each patty at end of cooking. Let melt 1 min.",
+        "Toast the buns. Spread ketchup and mustard.",
+        "Assemble: bun, lettuce, tomato, cheesy patty, onion. Close with top bun.",
+        "Serve with fries or a salad."
+      ],
+      "ar": [
+        "تبلي اللحم المفروم بالملح والفلفل. شكلي 4 أقراص 100 غ.",
+        "اشوي الأقراص 3-4 دقائق من كل جهة على نار عالية.",
+        "ضعي شريحة جبن على كل قرص في نهاية الطهي. اتركي تذوب دقيقة.",
+        "حمصي الخبز. دهني بالكاتشاب والخردل.",
+        "ركبي: خبز، خس، طماطم، قرص الجبن، بصل. أغلقي بالغطاء.",
+        "قدمي مع البطاطا المقلية أو السلطة."
+      ]
+    },
+    "astuces": ["La viande doit être froide avant de former les steaks pour qu'ils tiennent.", "Ajouter de la harissa dans la sauce pour un burger tunisien."],
+    "tags": ["international", "street food", "plat principal", "viande", "rapide"],
+    "nutrition": {"calories": 680, "healthy": false, "light": false},
+    "temps_prep": 15, "temps_cuisson": 15, "difficulte": "facile", "nb_personnes": 4
+  },
+  {
+    "id": "sandwich-poulet-grille",
+    "name": { "fr": "Sandwich poulet grillé", "en": "Grilled Chicken Sandwich", "ar": "ساندويتش دجاج مشوي" },
+    "aliases": ["sandwich poulet", "club sandwich", "ساندويتش دجاج"],
+    "ingredients": [
+      {"nom": "blanc de poulet", "quantite": 2, "unite": "pièces"},
+      {"nom": "pain de mie", "quantite": 4, "unite": "tranches"},
+      {"nom": "tomates", "quantite": 1, "unite": "pièce"},
+      {"nom": "salade", "quantite": 2, "unite": "feuilles"},
+      {"nom": "mayonnaise", "quantite": 2, "unite": "c.à.s"},
+      {"nom": "harissa", "quantite": 1, "unite": "c.à.c"},
+      {"nom": "ail", "quantite": 1, "unite": "gousse"},
+      {"nom": "huile d'olive", "quantite": 1, "unite": "c.à.s"},
+      {"nom": "sel", "quantite": 0.5, "unite": "c.à.c"},
+      {"nom": "poivre", "quantite": 0.25, "unite": "c.à.c"}
+    ],
+    "ingredients_simple": ["blanc de poulet", "pain de mie", "tomates", "salade", "mayonnaise", "harissa", "ail", "huile d'olive"],
+    "steps": {
+      "fr": [
+        "Mariner le poulet avec l'huile, l'ail écrasé, sel et poivre pendant 15 min.",
+        "Griller le poulet 5 à 6 min de chaque côté jusqu'à cuisson complète.",
+        "Couper le poulet en lanières. Toaster le pain de mie.",
+        "Mélanger la mayonnaise avec la harissa.",
+        "Assembler : pain, salade, tomate, poulet, sauce. Couvrir et servir."
+      ],
+      "en": [
+        "Marinate chicken with oil, crushed garlic, salt and pepper for 15 min.",
+        "Grill chicken 5-6 min each side until fully cooked.",
+        "Slice chicken into strips. Toast the bread.",
+        "Mix mayonnaise with harissa.",
+        "Assemble: bread, lettuce, tomato, chicken, sauce. Close and serve."
+      ],
+      "ar": [
+        "تبلي الدجاج بالزيت والثوم المسحوق والملح والفلفل 15 دقيقة.",
+        "اشوي الدجاج 5-6 دقائق من كل جهة حتى ينضج.",
+        "قطعي الدجاج شرائح. حمصي الخبز.",
+        "اخلطي المايونيز مع الهريسة.",
+        "ركبي: خبز، خس، طماطم، دجاج، صلصة. أغلقي وقدمي."
+      ]
+    },
+    "astuces": ["Ajouter des cornichons pour plus de croustillant.", "Remplacer le pain de mie par une baguette pour un sandwich plus garni."],
+    "tags": ["international", "street food", "rapide", "poulet"],
+    "nutrition": {"calories": 480, "healthy": true, "light": false},
+    "temps_prep": 15, "temps_cuisson": 15, "difficulte": "facile", "nb_personnes": 2
+  },
+  {
+    "id": "salade-cesar",
+    "name": { "fr": "Salade César", "en": "Caesar Salad", "ar": "سلطة سيزار" },
+    "aliases": ["salade cesar", "caesar salad", "سلطة سيزار"],
+    "ingredients": [
+      {"nom": "laitue romaine", "quantite": 1, "unite": "tête"},
+      {"nom": "blanc de poulet", "quantite": 200, "unite": "g"},
+      {"nom": "croûtons", "quantite": 50, "unite": "g"},
+      {"nom": "parmesan râpé", "quantite": 30, "unite": "g"},
+      {"nom": "mayonnaise", "quantite": 3, "unite": "c.à.s"},
+      {"nom": "jus de citron", "quantite": 1, "unite": "c.à.s"},
+      {"nom": "ail", "quantite": 1, "unite": "gousse"},
+      {"nom": "sel", "quantite": 0.5, "unite": "c.à.c"},
+      {"nom": "poivre", "quantite": 0.25, "unite": "c.à.c"}
+    ],
+    "ingredients_simple": ["laitue", "blanc de poulet", "croûtons", "parmesan", "mayonnaise", "citron", "ail"],
+    "steps": {
+      "fr": [
+        "Griller le poulet assaisonné 5 min de chaque côté. Laisser refroidir et couper en tranches.",
+        "Préparer la sauce : mélanger mayonnaise, ail écrasé, jus de citron, sel et poivre.",
+        "Laver et couper la laitue en morceaux.",
+        "Dans un grand bol, mélanger laitue, sauce César et croûtons.",
+        "Disposer le poulet dessus et parsemer de parmesan. Servir immédiatement."
+      ],
+      "en": [
+        "Grill seasoned chicken 5 min each side. Let cool and slice.",
+        "Prepare sauce: mix mayonnaise, crushed garlic, lemon juice, salt and pepper.",
+        "Wash and chop lettuce.",
+        "In a large bowl, mix lettuce, Caesar sauce and croutons.",
+        "Top with chicken and parmesan. Serve immediately."
+      ],
+      "ar": [
+        "اشوي الدجاج المتبل 5 دقائق من كل جهة. اتركي تبرد وقطعي شرائح.",
+        "حضري الصلصة: اخلطي المايونيز والثوم المسحوق وعصير الليمون والملح والفلفل.",
+        "اغسلي الخس وقطعيه.",
+        "في وعاء كبير، اخلطي الخس وصلصة سيزار والخبز المحمص.",
+        "رتبي الدجاج فوقها وأضيفي البارميزان. قدمي فوراً."
+      ]
+    },
+    "astuces": ["La sauce peut être préparée à l'avance et conservée au frigo.", "Remplacer le poulet par des crevettes pour une variante."],
+    "tags": ["international", "salade", "healthy", "poulet"],
+    "nutrition": {"calories": 380, "healthy": true, "light": true},
+    "temps_prep": 15, "temps_cuisson": 10, "difficulte": "facile", "nb_personnes": 2
+  },
+  {
+    "id": "soupe-legumes",
+    "name": { "fr": "Soupe de légumes", "en": "Vegetable Soup", "ar": "شوربة خضار" },
+    "aliases": ["soupe legumes", "soupe verte", "شوربة خضار"],
+    "ingredients": [
+      {"nom": "carottes", "quantite": 3, "unite": "pièces"},
+      {"nom": "pommes de terre", "quantite": 2, "unite": "pièces"},
+      {"nom": "courgettes", "quantite": 2, "unite": "pièces"},
+      {"nom": "céleri", "quantite": 2, "unite": "branches"},
+      {"nom": "oignon", "quantite": 1, "unite": "pièce"},
+      {"nom": "ail", "quantite": 3, "unite": "gousses"},
+      {"nom": "tomates", "quantite": 2, "unite": "pièces"},
+      {"nom": "huile d'olive", "quantite": 2, "unite": "c.à.s"},
+      {"nom": "sel", "quantite": 1, "unite": "c.à.c"},
+      {"nom": "poivre", "quantite": 0.5, "unite": "c.à.c"},
+      {"nom": "persil", "quantite": 3, "unite": "c.à.s"}
+    ],
+    "ingredients_simple": ["carottes", "pommes de terre", "courgettes", "céleri", "oignon", "ail", "tomates", "huile d'olive", "persil"],
+    "steps": {
+      "fr": [
+        "Éplucher et couper tous les légumes en dés de 2 cm.",
+        "Dans une grande casserole, faire revenir l'oignon et l'ail dans l'huile 3 min.",
+        "Ajouter carottes, pommes de terre et céleri. Mélanger 2 min.",
+        "Ajouter les tomates et couvrir d'eau chaude (1.5 litre). Saler et poivrer.",
+        "Porter à ébullition puis laisser mijoter 20 min.",
+        "Ajouter les courgettes les 10 dernières minutes.",
+        "Ajouter le persil frais et servir chaud."
+      ],
+      "en": [
+        "Peel and cut all vegetables into 2cm cubes.",
+        "In a large pot, sauté onion and garlic in oil for 3 min.",
+        "Add carrots, potatoes and celery. Stir 2 min.",
+        "Add tomatoes and cover with hot water (1.5 liters). Salt and pepper.",
+        "Bring to a boil then simmer for 20 min.",
+        "Add zucchini for the last 10 minutes.",
+        "Add fresh parsley and serve hot."
+      ],
+      "ar": [
+        "قشري وقطعي جميع الخضر مكعبات 2 سم.",
+        "في قدر كبير، قلي البصل والثوم في الزيت 3 دقائق.",
+        "أضيفي الجزر والبطاطا والكرفس. حركي 2 دقيقة.",
+        "أضيفي الطماطم وغطي بالماء الساخن (1.5 لتر). أضيفي الملح والفلفل.",
+        "أغلي ثم اتركي تغلي 20 دقيقة.",
+        "أضيفي الكوسة في آخر 10 دقائق.",
+        "أضيفي البقدونس الطازج وقدمي ساخنة."
+      ]
+    },
+    "astuces": ["Mixer la moitié de la soupe pour une texture plus crémeuse.", "Ajouter des petites pâtes pour une soupe plus consistante."],
+    "tags": ["international", "soupe", "végétarien", "healthy", "hiver"],
+    "nutrition": {"calories": 180, "healthy": true, "light": true},
+    "temps_prep": 15, "temps_cuisson": 30, "difficulte": "facile", "nb_personnes": 4
+  },
+  {
+    "id": "soupe-tomate",
+    "name": { "fr": "Soupe de tomates", "en": "Tomato Soup", "ar": "شوربة طماطم" },
+    "aliases": ["soupe tomate", "tomato soup", "شوربة طماطم"],
+    "ingredients": [
+      {"nom": "tomates mûres", "quantite": 800, "unite": "g"},
+      {"nom": "oignon", "quantite": 1, "unite": "pièce"},
+      {"nom": "ail", "quantite": 3, "unite": "gousses"},
+      {"nom": "bouillon de légumes", "quantite": 500, "unite": "ml"},
+      {"nom": "huile d'olive", "quantite": 2, "unite": "c.à.s"},
+      {"nom": "sucre", "quantite": 1, "unite": "c.à.c"},
+      {"nom": "sel", "quantite": 1, "unite": "c.à.c"},
+      {"nom": "basilic", "quantite": 5, "unite": "feuilles"},
+      {"nom": "crème fraîche", "quantite": 2, "unite": "c.à.s"}
+    ],
+    "ingredients_simple": ["tomates", "oignon", "ail", "bouillon", "huile d'olive", "sucre", "basilic", "crème fraîche"],
+    "steps": {
+      "fr": [
+        "Faire revenir l'oignon et l'ail dans l'huile 5 min.",
+        "Ajouter les tomates coupées en quartiers, le sucre, saler.",
+        "Verser le bouillon et laisser mijoter 20 min.",
+        "Mixer la soupe jusqu'à consistance lisse.",
+        "Remettre à feu doux, ajouter le basilic et la crème fraîche.",
+        "Servir chaud avec des croûtons."
+      ],
+      "en": [
+        "Sauté onion and garlic in oil for 5 min.",
+        "Add quartered tomatoes, sugar and salt.",
+        "Pour broth and simmer 20 min.",
+        "Blend soup until smooth.",
+        "Return to low heat, add basil and cream.",
+        "Serve hot with croutons."
+      ],
+      "ar": [
+        "قلي البصل والثوم في الزيت 5 دقائق.",
+        "أضيفي الطماطم مقطعة أرباعاً والسكر والملح.",
+        "صبي المرق واتركي تغلي 20 دقيقة.",
+        "اخلطي الشوربة حتى تصبح ناعمة.",
+        "أعيدي على نار هادئة، أضيفي الريحان والكريمة.",
+        "قدمي ساخنة مع الخبز المحمص."
+      ]
+    },
+    "astuces": ["Griller les tomates au four avant de faire la soupe pour plus de goût.", "Remplacer la crème par du lait de coco pour une version originale."],
+    "tags": ["international", "soupe", "végétarien", "healthy", "light"],
+    "nutrition": {"calories": 160, "healthy": true, "light": true},
+    "temps_prep": 10, "temps_cuisson": 25, "difficulte": "facile", "nb_personnes": 4
+  },
+  {
+    "id": "riz-cantonais",
+    "name": { "fr": "Riz cantonnais", "en": "Fried Rice", "ar": "أرز صيني" },
+    "aliases": ["riz cantonnais", "fried rice", "riz chinois", "أرز صيني"],
+    "ingredients": [
+      {"nom": "riz cuit froid", "quantite": 400, "unite": "g"},
+      {"nom": "oeufs", "quantite": 3, "unite": "pièces"},
+      {"nom": "petits pois", "quantite": 100, "unite": "g"},
+      {"nom": "carottes", "quantite": 1, "unite": "pièce"},
+      {"nom": "jambon ou poulet", "quantite": 150, "unite": "g"},
+      {"nom": "oignon", "quantite": 1, "unite": "pièce"},
+      {"nom": "sauce soja", "quantite": 3, "unite": "c.à.s"},
+      {"nom": "huile", "quantite": 3, "unite": "c.à.s"},
+      {"nom": "sel", "quantite": 0.5, "unite": "c.à.c"}
+    ],
+    "ingredients_simple": ["riz", "oeufs", "petits pois", "carottes", "poulet", "oignon", "sauce soja", "huile"],
+    "steps": {
+      "fr": [
+        "Faire chauffer l'huile dans un wok ou grande poêle à feu vif.",
+        "Faire revenir l'oignon émincé et les carottes en dés 3 min.",
+        "Ajouter le poulet coupé en petits dés et cuire 3 min.",
+        "Pousser sur le côté, battre les oeufs et les brouiller dans la poêle.",
+        "Ajouter le riz froid et mélanger vigoureusement.",
+        "Ajouter les petits pois et la sauce soja. Mélanger 3 min à feu vif.",
+        "Rectifier l'assaisonnement et servir chaud."
+      ],
+      "en": [
+        "Heat oil in a wok or large pan over high heat.",
+        "Sauté sliced onion and diced carrots for 3 min.",
+        "Add diced chicken and cook 3 min.",
+        "Push to the side, beat eggs and scramble in the pan.",
+        "Add cold rice and mix vigorously.",
+        "Add peas and soy sauce. Stir fry 3 min over high heat.",
+        "Adjust seasoning and serve hot."
+      ],
+      "ar": [
+        "سخني الزيت في ووك أو مقلاة كبيرة على نار عالية.",
+        "قلي البصل المقطع والجزر المقطع 3 دقائق.",
+        "أضيفي الدجاج المقطع واطهي 3 دقائق.",
+        "ادفعي جانباً، اخفقي البيض واطبخيه في المقلاة.",
+        "أضيفي الأرز البارد وحركي بقوة.",
+        "أضيفي البازلاء وصلصة الصويا. قلي 3 دقائق على نار عالية.",
+        "صححي التبهار وقدمي ساخناً."
+      ]
+    },
+    "astuces": ["Utiliser du riz de la veille — le riz froid se travaille mieux.", "Ajouter des crevettes pour une version aux fruits de mer."],
+    "tags": ["international", "plat principal", "rapide", "poulet"],
+    "nutrition": {"calories": 520, "healthy": false, "light": false},
+    "temps_prep": 10, "temps_cuisson": 15, "difficulte": "facile", "nb_personnes": 4
+  },
+  {
+    "id": "omelette-fromage",
+    "name": { "fr": "Omelette au fromage", "en": "Cheese Omelette", "ar": "عجة بالجبن" },
+    "aliases": ["omelette", "omelette fromage", "عجة"],
+    "ingredients": [
+      {"nom": "oeufs", "quantite": 3, "unite": "pièces"},
+      {"nom": "fromage râpé", "quantite": 40, "unite": "g"},
+      {"nom": "beurre", "quantite": 10, "unite": "g"},
+      {"nom": "sel", "quantite": 0.5, "unite": "c.à.c"},
+      {"nom": "poivre", "quantite": 0.25, "unite": "c.à.c"},
+      {"nom": "persil", "quantite": 1, "unite": "c.à.s"}
+    ],
+    "ingredients_simple": ["oeufs", "fromage râpé", "beurre", "sel", "poivre", "persil"],
+    "steps": {
+      "fr": [
+        "Battre les oeufs avec sel, poivre et persil haché.",
+        "Faire fondre le beurre dans une poêle à feu moyen.",
+        "Verser les oeufs battus. Laisser cuire 2 min sans toucher.",
+        "Quand le dessous est doré, ajouter le fromage râpé au centre.",
+        "Plier l'omelette en deux et laisser fondre le fromage 1 min.",
+        "Servir immédiatement."
+      ],
+      "en": [
+        "Beat eggs with salt, pepper and chopped parsley.",
+        "Melt butter in a pan over medium heat.",
+        "Pour beaten eggs. Cook 2 min without touching.",
+        "When bottom is set, add grated cheese in the center.",
+        "Fold omelette in half and let cheese melt 1 min.",
+        "Serve immediately."
+      ],
+      "ar": [
+        "اخفقي البيض مع الملح والفلفل والبقدونس المقطع.",
+        "أذيبي الزبدة في مقلاة على نار متوسطة.",
+        "صبي البيض المخفوق. اتركي تطهى دقيقتين دون لمس.",
+        "عندما يجف الأسفل، أضيفي الجبن المبشور في المنتصف.",
+        "اطوي العجة بالنصف واتركي الجبن يذوب دقيقة.",
+        "قدمي فوراً."
+      ]
+    },
+    "astuces": ["Ne pas trop battre les oeufs pour une omelette moelleuse.", "Ajouter des champignons pour une version plus copieuse."],
+    "tags": ["international", "rapide", "petit déjeuner", "végétarien"],
+    "nutrition": {"calories": 280, "healthy": true, "light": true},
+    "temps_prep": 5, "temps_cuisson": 5, "difficulte": "facile", "nb_personnes": 1
+  },
+  {
+    "id": "pates-carbonara",
+    "name": { "fr": "Pâtes carbonara", "en": "Pasta Carbonara", "ar": "باستا كاربونارا" },
+    "aliases": ["carbonara", "pasta carbonara", "كاربونارا"],
+    "ingredients": [
+      {"nom": "pâtes spaghetti", "quantite": 300, "unite": "g"},
+      {"nom": "oeufs", "quantite": 3, "unite": "pièces"},
+      {"nom": "lardons ou bacon", "quantite": 150, "unite": "g"},
+      {"nom": "parmesan râpé", "quantite": 80, "unite": "g"},
+      {"nom": "ail", "quantite": 2, "unite": "gousses"},
+      {"nom": "sel", "quantite": 1, "unite": "c.à.c"},
+      {"nom": "poivre noir", "quantite": 1, "unite": "c.à.c"}
+    ],
+    "ingredients_simple": ["pâtes", "oeufs", "lardons", "parmesan", "ail", "sel", "poivre"],
+    "steps": {
+      "fr": [
+        "Cuire les pâtes al dente dans l'eau bouillante salée. Réserver 1 verre d'eau de cuisson.",
+        "Faire dorer les lardons avec l'ail dans une poêle. Retirer l'ail.",
+        "Battre les oeufs avec le parmesan et le poivre.",
+        "Hors du feu, mélanger les pâtes chaudes avec les lardons.",
+        "Ajouter le mélange oeufs-parmesan et remuer rapidement en ajoutant un peu d'eau de cuisson.",
+        "La sauce doit être crémeuse. Servir immédiatement avec du parmesan."
+      ],
+      "en": [
+        "Cook pasta al dente in boiling salted water. Reserve 1 cup of cooking water.",
+        "Brown lardons with garlic in a pan. Remove garlic.",
+        "Beat eggs with parmesan and pepper.",
+        "Off the heat, mix hot pasta with lardons.",
+        "Add egg-parmesan mix and stir quickly, adding a little cooking water.",
+        "Sauce should be creamy. Serve immediately with parmesan."
+      ],
+      "ar": [
+        "اطبخي الباستا al dente في ماء مغلي مملح. احتفظي بكوب ماء طهي.",
+        "احمري اللحم المقدد مع الثوم في مقلاة. أزيلي الثوم.",
+        "اخفقي البيض مع البارميزان والفلفل.",
+        "بعيداً عن النار، اخلطي الباستا الساخنة مع اللحم.",
+        "أضيفي خليط البيض والبارميزان وحركي سريعاً مع قليل من ماء الطهي.",
+        "الصلصة يجب أن تكون كريمية. قدمي فوراً مع البارميزان."
+      ]
+    },
+    "astuces": ["Ne jamais mettre de crème fraîche dans une vraie carbonara.", "Travailler très vite hors du feu pour éviter de cuire les oeufs."],
+    "tags": ["international", "plat principal", "rapide"],
+    "nutrition": {"calories": 680, "healthy": false, "light": false},
+    "temps_prep": 10, "temps_cuisson": 15, "difficulte": "moyen", "nb_personnes": 3
+  },
+  {
+    "id": "poulet-four-citron",
+    "name": { "fr": "Poulet rôti au citron", "en": "Lemon Roasted Chicken", "ar": "دجاج مشوي بالليمون" },
+    "aliases": ["poulet roti", "poulet four", "دجاج مشوي"],
+    "ingredients": [
+      {"nom": "poulet entier", "quantite": 1.5, "unite": "kg"},
+      {"nom": "citron", "quantite": 2, "unite": "pièces"},
+      {"nom": "ail", "quantite": 6, "unite": "gousses"},
+      {"nom": "huile d'olive", "quantite": 3, "unite": "c.à.s"},
+      {"nom": "thym", "quantite": 3, "unite": "branches"},
+      {"nom": "sel", "quantite": 2, "unite": "c.à.c"},
+      {"nom": "poivre", "quantite": 1, "unite": "c.à.c"},
+      {"nom": "paprika", "quantite": 1, "unite": "c.à.c"}
+    ],
+    "ingredients_simple": ["poulet", "citron", "ail", "huile d'olive", "thym", "sel", "poivre", "paprika"],
+    "steps": {
+      "fr": [
+        "Préchauffer le four à 200°C. Mélanger huile, ail écrasé, jus de citron, sel, poivre et paprika.",
+        "Frotter le poulet entier avec cette marinade. Glisser des tranches de citron sous la peau.",
+        "Mettre les gousses d'ail et le thym à l'intérieur du poulet.",
+        "Placer dans un plat allant au four. Arroser du reste de marinade.",
+        "Enfourner 1h15 en arrosant toutes les 20 min avec le jus.",
+        "Laisser reposer 10 min avant de découper. Servir avec les légumes de saison."
+      ],
+      "en": [
+        "Preheat oven to 200°C. Mix oil, crushed garlic, lemon juice, salt, pepper and paprika.",
+        "Rub the whole chicken with this marinade. Tuck lemon slices under the skin.",
+        "Place garlic cloves and thyme inside the chicken.",
+        "Place in an oven dish. Baste with remaining marinade.",
+        "Bake 1h15, basting every 20 min with juices.",
+        "Rest 10 min before carving. Serve with seasonal vegetables."
+      ],
+      "ar": [
+        "سخني الفرن 200 درجة. اخلطي الزيت والثوم المسحوق وعصير الليمون والملح والفلفل والفلفل الأحمر.",
+        "افركي الدجاج كله بهذا التتبيل. ضعي شرائح الليمون تحت الجلد.",
+        "ضعي الثوم والزعتر داخل الدجاج.",
+        "ضعي في طبق الفرن. رشي ما تبقى من التتبيل.",
+        "اخبزي ساعة و15 دقيقة مع الرش كل 20 دقيقة.",
+        "اتركي ترتاح 10 دقائق قبل التقطيع. قدمي مع الخضار الموسمية."
+      ]
+    },
+    "astuces": ["Arroser souvent le poulet est le secret d'un poulet rôti juteux.", "Ajouter des pommes de terre autour pour un plat complet."],
+    "tags": ["international", "plat principal", "poulet", "four", "famille"],
+    "nutrition": {"calories": 480, "healthy": true, "light": false},
+    "temps_prep": 15, "temps_cuisson": 75, "difficulte": "facile", "nb_personnes": 4
+  },
+  {
+    "id": "gateau-chocolat",
+    "name": { "fr": "Gâteau au chocolat moelleux", "en": "Moist Chocolate Cake", "ar": "كيك شوكولا" },
+    "aliases": ["gateau chocolat", "chocolate cake", "كيك شوكولا", "gato chocolat"],
+    "ingredients": [
+      {"nom": "chocolat noir", "quantite": 200, "unite": "g"},
+      {"nom": "beurre", "quantite": 150, "unite": "g"},
+      {"nom": "sucre", "quantite": 150, "unite": "g"},
+      {"nom": "oeufs", "quantite": 4, "unite": "pièces"},
+      {"nom": "farine", "quantite": 80, "unite": "g"},
+      {"nom": "levure chimique", "quantite": 1, "unite": "c.à.c"},
+      {"nom": "sel", "quantite": 1, "unite": "pincée"}
+    ],
+    "ingredients_simple": ["chocolat noir", "beurre", "sucre", "oeufs", "farine", "levure chimique", "sel"],
+    "steps": {
+      "fr": [
+        "Préchauffer le four à 180°C. Faire fondre le chocolat et le beurre au bain-marie.",
+        "Hors du feu, ajouter le sucre et mélanger.",
+        "Incorporer les oeufs un à un en mélangeant bien entre chaque.",
+        "Ajouter la farine, la levure et une pincée de sel. Mélanger jusqu'à consistance lisse.",
+        "Verser dans un moule beurré. Enfourner 25 min.",
+        "Vérifier la cuisson — le centre doit rester légèrement fondant.",
+        "Laisser refroidir 10 min avant de démouler."
+      ],
+      "en": [
+        "Preheat oven to 180°C. Melt chocolate and butter in a double boiler.",
+        "Off the heat, add sugar and mix.",
+        "Add eggs one at a time, mixing well between each.",
+        "Add flour, baking powder and salt. Mix until smooth.",
+        "Pour into a buttered pan. Bake 25 min.",
+        "Check doneness — center should remain slightly fudgy.",
+        "Cool 10 min before unmolding."
+      ],
+      "ar": [
+        "سخني الفرن 180 درجة. أذيبي الشوكولا والزبدة على حمام مائي.",
+        "بعيداً عن النار، أضيفي السكر وحركي.",
+        "أضيفي البيض واحدة تلو الأخرى مع الخلط جيداً بين كل واحدة.",
+        "أضيفي الدقيق والخميرة ورشة ملح. حركي حتى تصبح ناعمة.",
+        "صبي في قالب مدهون. اخبزي 25 دقيقة.",
+        "تحققي من النضج — يجب أن يبقى المنتصف طرياً قليلاً.",
+        "اتركي تبرد 10 دقائق قبل الإخراج من القالب."
+      ]
+    },
+    "astuces": ["Ne pas trop cuire — le secret d'un moelleux fondant.", "Servir avec une boule de glace à la vanille."],
+    "tags": ["international", "dessert", "pâtisserie", "chocolat"],
+    "nutrition": {"calories": 480, "healthy": false, "light": false},
+    "temps_prep": 15, "temps_cuisson": 25, "difficulte": "facile", "nb_personnes": 8
+  },
+  {
+    "id": "tiramisu",
+    "name": { "fr": "Tiramisu", "en": "Tiramisu", "ar": "تيراميسو" },
+    "aliases": ["tiramisu", "تيراميسو"],
+    "ingredients": [
+      {"nom": "mascarpone", "quantite": 500, "unite": "g"},
+      {"nom": "oeufs", "quantite": 4, "unite": "pièces"},
+      {"nom": "sucre", "quantite": 100, "unite": "g"},
+      {"nom": "biscuits à la cuillère", "quantite": 200, "unite": "g"},
+      {"nom": "café fort", "quantite": 300, "unite": "ml"},
+      {"nom": "cacao non sucré", "quantite": 3, "unite": "c.à.s"},
+      {"nom": "sel", "quantite": 1, "unite": "pincée"}
+    ],
+    "ingredients_simple": ["mascarpone", "oeufs", "sucre", "biscuits", "café", "cacao"],
+    "steps": {
+      "fr": [
+        "Séparer les blancs des jaunes. Battre les jaunes avec le sucre jusqu'à mélange pâle.",
+        "Incorporer le mascarpone au mélange jaunes-sucre. Mélanger jusqu'à consistance lisse.",
+        "Monter les blancs en neige ferme avec une pincée de sel.",
+        "Incorporer délicatement les blancs au mélange mascarpone.",
+        "Tremper rapidement les biscuits dans le café froid. Les disposer dans un plat.",
+        "Étaler la moitié de la crème. Recommencer une couche de biscuits puis le reste de crème.",
+        "Saupoudrer de cacao. Réfrigérer au moins 4 heures avant de servir."
+      ],
+      "en": [
+        "Separate whites from yolks. Beat yolks with sugar until pale.",
+        "Fold mascarpone into yolk-sugar mixture. Mix until smooth.",
+        "Whip whites to stiff peaks with a pinch of salt.",
+        "Gently fold whites into mascarpone mixture.",
+        "Quickly dip biscuits in cold coffee. Layer in a dish.",
+        "Spread half the cream. Repeat with another layer of biscuits then remaining cream.",
+        "Dust with cocoa. Refrigerate at least 4 hours before serving."
+      ],
+      "ar": [
+        "افصلي البياض عن الصفار. اخفقي الصفار مع السكر حتى يصبح فاتح اللون.",
+        "أضيفي الماسكاربوني لخليط الصفار. حركي حتى يصبح ناعماً.",
+        "اخفقي البياض حتى يتصلب مع رشة ملح.",
+        "أضيفي البياض برفق لخليط الماسكاربوني.",
+        "اغمسي البسكويت سريعاً في القهوة الباردة. رتبيها في طبق.",
+        "افردي نصف الكريمة. كرري طبقة بسكويت ثم باقي الكريمة.",
+        "رشي الكاكاو. ضعي في الثلاجة 4 ساعات على الأقل قبل التقديم."
+      ]
+    },
+    "astuces": ["Préparer la veille pour un tiramisu encore meilleur.", "Ajouter un trait d'amaretto dans le café pour un goût authentique."],
+    "tags": ["international", "dessert", "pâtisserie", "italie"],
+    "nutrition": {"calories": 420, "healthy": false, "light": false},
+    "temps_prep": 30, "temps_repos": 240, "temps_cuisson": 0, "difficulte": "moyen", "nb_personnes": 8
+  },
+  {
+    "id": "msemen",
+    "name": { "fr": "Msemen (galettes feuilletées)", "en": "Msemen (Layered flatbread)", "ar": "مسمن" },
+    "aliases": ["msemen", "mssemen", "mlawi", "مسمن", "ملاوي"],
+    "ingredients": [
+      {"nom": "semoule fine", "quantite": 250, "unite": "g"},
+      {"nom": "farine", "quantite": 250, "unite": "g"},
+      {"nom": "sel", "quantite": 1, "unite": "c.à.c"},
+      {"nom": "levure", "quantite": 5, "unite": "g"},
+      {"nom": "eau tiède", "quantite": 300, "unite": "ml"},
+      {"nom": "beurre fondu", "quantite": 80, "unite": "g"},
+      {"nom": "huile", "quantite": 50, "unite": "ml"}
+    ],
+    "ingredients_simple": ["semoule", "farine", "sel", "levure", "eau", "beurre", "huile"],
+    "steps": {
+      "fr": [
+        "Mélanger farine, semoule, sel et levure. Ajouter progressivement l'eau tiède et pétrir 10 min.",
+        "La pâte doit être souple et non collante. Former des boules de 80g. Reposer 20 min.",
+        "Sur un plan huilé, étaler chaque boule très finement avec les doigts.",
+        "Badigeonner de beurre fondu et saupoudrer de semoule fine.",
+        "Replier en trois dans un sens puis en trois dans l'autre pour former un carré.",
+        "Laisser reposer 10 min. Étaler à nouveau en carré fin.",
+        "Cuire sur une poêle chaude non huilée, 2 min de chaque côté jusqu'à dorure."
+      ],
+      "en": [
+        "Mix flour, semolina, salt and yeast. Gradually add warm water and knead 10 min.",
+        "Dough should be supple and not sticky. Shape into 80g balls. Rest 20 min.",
+        "On an oiled surface, stretch each ball very thin with fingers.",
+        "Brush with melted butter and sprinkle fine semolina.",
+        "Fold in thirds one way then the other to form a square.",
+        "Rest 10 min. Stretch again into a thin square.",
+        "Cook on a hot ungreased pan, 2 min each side until golden."
+      ],
+      "ar": [
+        "اخلطي الدقيق والسميد والملح والخميرة. أضيفي الماء الدافئ تدريجياً واعجني 10 دقائق.",
+        "العجينة يجب أن تكون مرنة وغير لاصقة. شكلي كرات 80 غ. اتركي ترتاح 20 دقيقة.",
+        "على سطح مدهون، افردي كل كرة رفيعة جداً بالأصابع.",
+        "ادهني بالزبدة المذابة ورشي سميداً ناعماً.",
+        "اطوي ثلاثاً في اتجاه ثم ثلاثاً في الاتجاه الآخر لتشكيل مربع.",
+        "اتركي 10 دقائق. افردي مجدداً إلى مربع رفيع.",
+        "اطبخي على مقلاة ساخنة غير مدهونة، دقيقتين من كل جهة."
+      ]
+    },
+    "astuces": ["Le secret du feuilletage : étaler le plus fin possible.", "Se mange avec du miel, du beurre ou de la kefta pour le petit déjeuner."],
+    "tags": ["tunisien", "petit déjeuner", "street food", "pâtisserie"],
+    "nutrition": {"calories": 380, "healthy": false, "light": false},
+    "temps_prep": 30, "temps_repos": 30, "temps_cuisson": 20, "difficulte": "moyen", "nb_personnes": 6
+  },
+  {
+    "id": "kefta-grille",
+    "name": { "fr": "Kefta grillée", "en": "Grilled Kefta", "ar": "كفتة مشوية" },
+    "aliases": ["kefta", "kafta", "كفتة"],
+    "ingredients": [
+      {"nom": "viande hachée", "quantite": 500, "unite": "g"},
+      {"nom": "oignon", "quantite": 1, "unite": "pièce"},
+      {"nom": "persil", "quantite": 3, "unite": "c.à.s"},
+      {"nom": "cumin", "quantite": 1, "unite": "c.à.c"},
+      {"nom": "paprika", "quantite": 1, "unite": "c.à.c"},
+      {"nom": "sel", "quantite": 1, "unite": "c.à.c"},
+      {"nom": "poivre", "quantite": 0.5, "unite": "c.à.c"},
+      {"nom": "harissa", "quantite": 1, "unite": "c.à.c"}
+    ],
+    "ingredients_simple": ["viande hachée", "oignon", "persil", "cumin", "paprika", "harissa", "sel", "poivre"],
+    "steps": {
+      "fr": [
+        "Hacher finement l'oignon et le persil.",
+        "Mélanger la viande hachée avec tous les ingrédients. Bien pétrir à la main.",
+        "Former des boudins allongés de 10 cm autour de brochettes.",
+        "Griller au barbecue ou dans une poêle grill 3 à 4 min de chaque côté.",
+        "Servir avec du pain, de la salade et de la harissa."
+      ],
+      "en": [
+        "Finely chop onion and parsley.",
+        "Mix ground meat with all ingredients. Knead well by hand.",
+        "Shape into 10cm elongated rolls around skewers.",
+        "Grill on BBQ or grill pan 3-4 min each side.",
+        "Serve with bread, salad and harissa."
+      ],
+      "ar": [
+        "قطعي البصل والبقدونس ناعماً.",
+        "اخلطي اللحم المفروم مع جميع المكونات. اعجني جيداً باليد.",
+        "شكلي أسطوانات ممتدة 10 سم حول أسياخ.",
+        "اشوي على شواية أو مقلاة شواء 3-4 دقائق من كل جهة.",
+        "قدمي مع الخبز والسلطة والهريسة."
+      ]
+    },
+    "astuces": ["Mettre la kefta au frigo 30 min avant de griller pour qu'elle tienne mieux.", "Ajouter de la cannelle pour un goût oriental plus prononcé."],
+    "tags": ["tunisien", "plat principal", "viande", "gril", "street food"],
+    "nutrition": {"calories": 420, "healthy": false, "light": false},
+    "temps_prep": 15, "temps_cuisson": 10, "difficulte": "facile", "nb_personnes": 4
+  },
+  {
+    "id": "slata-blankit",
+    "name": { "fr": "Slata blankit (salade de pommes de terre)", "en": "Tunisian potato salad", "ar": "سلطة بلانكيت" },
+    "aliases": ["slata blankit", "salade pomme de terre tunisienne", "سلطة بلانكيت"],
+    "ingredients": [
+      {"nom": "pommes de terre", "quantite": 600, "unite": "g"},
+      {"nom": "oeufs durs", "quantite": 3, "unite": "pièces"},
+      {"nom": "thon en boîte", "quantite": 160, "unite": "g"},
+      {"nom": "olives", "quantite": 12, "unite": "pièces"},
+      {"nom": "câpres", "quantite": 1, "unite": "c.à.s"},
+      {"nom": "mayonnaise", "quantite": 3, "unite": "c.à.s"},
+      {"nom": "harissa", "quantite": 1, "unite": "c.à.c"},
+      {"nom": "citron", "quantite": 1, "unite": "pièce"},
+      {"nom": "sel", "quantite": 1, "unite": "c.à.c"},
+      {"nom": "persil", "quantite": 2, "unite": "c.à.s"}
+    ],
+    "ingredients_simple": ["pommes de terre", "oeufs durs", "thon en boîte", "olives", "câpres", "mayonnaise", "harissa", "citron", "persil"],
+    "steps": {
+      "fr": [
+        "Cuire les pommes de terre avec leur peau dans l'eau salée 20 min. Laisser refroidir.",
+        "Éplucher et couper en dés de 2 cm.",
+        "Préparer la sauce : mélanger mayonnaise, harissa et jus de citron.",
+        "Mélanger les pommes de terre avec la sauce, le thon émietté et les câpres.",
+        "Disposer dans un plat. Garnir avec les oeufs durs en quartiers, les olives et le persil.",
+        "Réfrigérer 30 min avant de servir."
+      ],
+      "en": [
+        "Cook potatoes in their skins in salted water for 20 min. Let cool.",
+        "Peel and cut into 2cm cubes.",
+        "Prepare sauce: mix mayonnaise, harissa and lemon juice.",
+        "Mix potatoes with sauce, flaked tuna and capers.",
+        "Arrange on a plate. Garnish with quartered hard eggs, olives and parsley.",
+        "Refrigerate 30 min before serving."
+      ],
+      "ar": [
+        "اطبخي البطاطا بقشرها في ماء مملح 20 دقيقة. اتركي تبرد.",
+        "قشريها وقطعيها مكعبات 2 سم.",
+        "حضري الصلصة: اخلطي المايونيز والهريسة وعصير الليمون.",
+        "اخلطي البطاطا مع الصلصة والتونة المفتتة والكبار.",
+        "رتبي في طبق. زيني بالبيض المسلوق مقطعاً أرباعاً والزيتون والبقدونس.",
+        "ضعي في الثلاجة 30 دقيقة قبل التقديم."
+      ]
+    },
+    "astuces": ["Préparer à l'avance — la salade est encore meilleure après 1h au frigo.", "Ajouter des cornichons pour plus de croustillant."],
+    "tags": ["tunisien", "salade", "entrée", "rapide"],
+    "nutrition": {"calories": 380, "healthy": false, "light": false},
+    "temps_prep": 15, "temps_cuisson": 20, "difficulte": "facile", "nb_personnes": 4
+  },
+  {
+    "id": "soupe-lentilles",
+    "name": { "fr": "Soupe de lentilles", "en": "Lentil Soup", "ar": "شوربة العدس" },
+    "aliases": ["soupe lentilles", "lentil soup", "شوربة العدس", "3das"],
+    "ingredients": [
+      {"nom": "lentilles rouges", "quantite": 300, "unite": "g"},
+      {"nom": "oignon", "quantite": 1, "unite": "pièce"},
+      {"nom": "ail", "quantite": 3, "unite": "gousses"},
+      {"nom": "carottes", "quantite": 2, "unite": "pièces"},
+      {"nom": "tomates", "quantite": 2, "unite": "pièces"},
+      {"nom": "cumin", "quantite": 1, "unite": "c.à.c"},
+      {"nom": "curcuma", "quantite": 0.5, "unite": "c.à.c"},
+      {"nom": "huile d'olive", "quantite": 2, "unite": "c.à.s"},
+      {"nom": "citron", "quantite": 1, "unite": "pièce"},
+      {"nom": "sel", "quantite": 1, "unite": "c.à.c"},
+      {"nom": "eau", "quantite": 1.5, "unite": "litres"}
+    ],
+    "ingredients_simple": ["lentilles", "oignon", "ail", "carottes", "tomates", "cumin", "curcuma", "huile d'olive", "citron"],
+    "steps": {
+      "fr": [
+        "Rincer les lentilles à l'eau froide. Égoutter.",
+        "Faire revenir l'oignon et l'ail dans l'huile 5 min.",
+        "Ajouter les carottes en dés, le cumin et le curcuma. Mélanger 2 min.",
+        "Ajouter les tomates, les lentilles et l'eau. Porter à ébullition.",
+        "Laisser mijoter 25 min jusqu'à ce que les lentilles soient tendres.",
+        "Mixer partiellement ou totalement selon la texture souhaitée.",
+        "Ajouter le jus de citron, rectifier l'assaisonnement et servir chaud."
+      ],
+      "en": [
+        "Rinse lentils in cold water. Drain.",
+        "Sauté onion and garlic in oil for 5 min.",
+        "Add diced carrots, cumin and turmeric. Stir 2 min.",
+        "Add tomatoes, lentils and water. Bring to a boil.",
+        "Simmer 25 min until lentils are tender.",
+        "Blend partially or fully depending on desired texture.",
+        "Add lemon juice, adjust seasoning and serve hot."
+      ],
+      "ar": [
+        "اشطفي العدس بماء بارد. صفيه.",
+        "قلي البصل والثوم في الزيت 5 دقائق.",
+        "أضيفي الجزر المقطع والكمون والكركم. حركي 2 دقيقة.",
+        "أضيفي الطماطم والعدس والماء. أغلي.",
+        "اتركي تغلي 25 دقيقة حتى يلين العدس.",
+        "اخلطي جزئياً أو كلياً حسب القوام المطلوب.",
+        "أضيفي عصير الليمون وصححي التبهار وقدمي ساخنة."
+      ]
+    },
+    "astuces": ["Les lentilles rouges cuisent sans trempage préalable.", "Frire un oignon avec du cumin dans du beurre et verser sur la soupe pour la touche finale."],
+    "tags": ["international", "soupe", "végétarien", "healthy", "light", "économique"],
+    "nutrition": {"calories": 260, "healthy": true, "light": true},
+    "temps_prep": 10, "temps_cuisson": 30, "difficulte": "facile", "nb_personnes": 4
+  },
+  {
+    "id": "poulet-sauce-tomate",
+    "name": { "fr": "Poulet sauce tomate", "en": "Chicken in tomato sauce", "ar": "دجاج بصلصة الطماطم" },
+    "aliases": ["poulet tomate", "poulet sauce rouge", "دجاج صلصة"],
+    "ingredients": [
+      {"nom": "morceaux de poulet", "quantite": 1, "unite": "kg"},
+      {"nom": "tomates", "quantite": 4, "unite": "pièces"},
+      {"nom": "concentré de tomate", "quantite": 2, "unite": "c.à.s"},
+      {"nom": "oignon", "quantite": 1, "unite": "pièce"},
+      {"nom": "ail", "quantite": 4, "unite": "gousses"},
+      {"nom": "poivrons", "quantite": 2, "unite": "pièces"},
+      {"nom": "harissa", "quantite": 1, "unite": "c.à.s"},
+      {"nom": "huile d'olive", "quantite": 3, "unite": "c.à.s"},
+      {"nom": "cumin", "quantite": 1, "unite": "c.à.c"},
+      {"nom": "sel", "quantite": 1, "unite": "c.à.c"},
+      {"nom": "poivre", "quantite": 0.5, "unite": "c.à.c"}
+    ],
+    "ingredients_simple": ["poulet", "tomates", "concentré de tomate", "oignon", "ail", "poivrons", "harissa", "cumin"],
+    "steps": {
+      "fr": [
+        "Faire dorer les morceaux de poulet dans l'huile 8 min sur toutes les faces. Réserver.",
+        "Dans la même poêle, faire revenir l'oignon et l'ail 3 min.",
+        "Ajouter les poivrons en dés, le concentré de tomate et la harissa. Mélanger.",
+        "Ajouter les tomates concassées, le cumin, sel et poivre.",
+        "Remettre le poulet. Couvrir et laisser mijoter 30 min à feu doux.",
+        "La sauce doit être épaisse. Servir avec du riz ou du pain."
+      ],
+      "en": [
+        "Brown chicken pieces in oil for 8 min on all sides. Set aside.",
+        "In the same pan, sauté onion and garlic for 3 min.",
+        "Add diced peppers, tomato paste and harissa. Mix.",
+        "Add crushed tomatoes, cumin, salt and pepper.",
+        "Return chicken. Cover and simmer 30 min on low heat.",
+        "Sauce should be thick. Serve with rice or bread."
+      ],
+      "ar": [
+        "احمري قطع الدجاج في الزيت 8 دقائق من جميع الجهات. اتركي جانباً.",
+        "في نفس المقلاة، قلي البصل والثوم 3 دقائق.",
+        "أضيفي الفلفل المقطع ومعجون الطماطم والهريسة. حركي.",
+        "أضيفي الطماطم المهروسة والكمون والملح والفلفل.",
+        "أعيدي الدجاج. غطي واتركي تغلي 30 دقيقة على نار هادئة.",
+        "الصلصة يجب أن تكون كثيفة. قدمي مع الأرز أو الخبز."
+      ]
+    },
+    "astuces": ["Plus le poulet mijote, plus il est tendre.", "Ajouter des olives et des câpres pour une touche méditerranéenne."],
+    "tags": ["tunisien", "plat principal", "poulet", "sauce"],
+    "nutrition": {"calories": 420, "healthy": true, "light": false},
+    "temps_prep": 15, "temps_cuisson": 45, "difficulte": "facile", "nb_personnes": 4
+  },
+  {
+    "id": "batata-mchermla",
+    "name": { "fr": "Batata mchermla (pommes de terre piquantes)", "en": "Spicy potatoes", "ar": "بطاطا محرملة" },
+    "aliases": ["batata mchermla", "pommes de terre piquantes", "بطاطا محرملة"],
+    "ingredients": [
+      {"nom": "pommes de terre", "quantite": 600, "unite": "g"},
+      {"nom": "harissa", "quantite": 2, "unite": "c.à.s"},
+      {"nom": "ail", "quantite": 4, "unite": "gousses"},
+      {"nom": "cumin", "quantite": 1, "unite": "c.à.c"},
+      {"nom": "vinaigre", "quantite": 1, "unite": "c.à.s"},
+      {"nom": "huile d'olive", "quantite": 3, "unite": "c.à.s"},
+      {"nom": "sel", "quantite": 1, "unite": "c.à.c"},
+      {"nom": "eau", "quantite": 150, "unite": "ml"}
+    ],
+    "ingredients_simple": ["pommes de terre", "harissa", "ail", "cumin", "vinaigre", "huile d'olive"],
+    "steps": {
+      "fr": [
+        "Éplucher les pommes de terre et les couper en gros cubes.",
+        "Dans une casserole, faire revenir l'ail écrasé dans l'huile 2 min.",
+        "Ajouter la harissa, le cumin et le vinaigre. Mélanger 1 min.",
+        "Ajouter les pommes de terre et l'eau. Saler.",
+        "Couvrir et cuire 20 à 25 min à feu moyen jusqu'à ce que les pommes de terre soient tendres.",
+        "La sauce doit être absorbée et les pommes de terre bien enrobées.",
+        "Servir chaud en accompagnement ou en plat principal."
+      ],
+      "en": [
+        "Peel potatoes and cut into large cubes.",
+        "In a pot, sauté crushed garlic in oil for 2 min.",
+        "Add harissa, cumin and vinegar. Stir 1 min.",
+        "Add potatoes and water. Season with salt.",
+        "Cover and cook 20-25 min on medium heat until potatoes are tender.",
+        "Sauce should be absorbed and potatoes well coated.",
+        "Serve hot as a side dish or main."
+      ],
+      "ar": [
+        "قشري البطاطا وقطعيها مكعبات كبيرة.",
+        "في قدر، قلي الثوم المسحوق في الزيت دقيقتين.",
+        "أضيفي الهريسة والكمون والخل. حركي دقيقة.",
+        "أضيفي البطاطا والماء. أضيفي الملح.",
+        "غطي واطبخي 20-25 دقيقة على نار متوسطة حتى تلين البطاطا.",
+        "يجب أن تمتص الصلصة وتتغطى البطاطا جيداً.",
+        "قدمي ساخنة كطبق مرافق أو رئيسي."
+      ]
+    },
+    "astuces": ["Excellent avec du pain tunisien chaud.", "Ajouter des oeufs durs en fin de cuisson pour un repas complet."],
+    "tags": ["tunisien", "végétarien", "rapide", "économique", "épicé"],
+    "nutrition": {"calories": 280, "healthy": true, "light": true},
+    "temps_prep": 10, "temps_cuisson": 25, "difficulte": "facile", "nb_personnes": 4
+  },
+  {
+    "id": "houmous",
+    "name": { "fr": "Houmous maison", "en": "Homemade Hummus", "ar": "حمص بالطحينة" },
+    "aliases": ["houmous", "hummus", "حمص"],
+    "ingredients": [
+      {"nom": "pois chiches en boîte", "quantite": 400, "unite": "g"},
+      {"nom": "tahini (pâte de sésame)", "quantite": 3, "unite": "c.à.s"},
+      {"nom": "citron", "quantite": 2, "unite": "pièces"},
+      {"nom": "ail", "quantite": 2, "unite": "gousses"},
+      {"nom": "huile d'olive", "quantite": 3, "unite": "c.à.s"},
+      {"nom": "cumin", "quantite": 0.5, "unite": "c.à.c"},
+      {"nom": "sel", "quantite": 1, "unite": "c.à.c"},
+      {"nom": "paprika", "quantite": 0.5, "unite": "c.à.c"}
+    ],
+    "ingredients_simple": ["pois chiches", "tahini", "citron", "ail", "huile d'olive", "cumin", "paprika"],
+    "steps": {
+      "fr": [
+        "Égoutter et rincer les pois chiches. En garder quelques-uns pour la décoration.",
+        "Mixer les pois chiches avec le tahini, le jus des 2 citrons, l'ail, le cumin et le sel.",
+        "Ajouter 3 à 4 c.à.s d'eau froide progressivement tout en mixant pour obtenir une texture crémeuse.",
+        "Goûter et ajuster le sel et le citron.",
+        "Étaler dans un plat. Creuser un puits au centre.",
+        "Verser l'huile d'olive, saupoudrer de paprika et de quelques pois chiches entiers.",
+        "Servir avec du pain pita ou des légumes."
+      ],
+      "en": [
+        "Drain and rinse chickpeas. Keep a few for decoration.",
+        "Blend chickpeas with tahini, juice of 2 lemons, garlic, cumin and salt.",
+        "Add 3-4 tbsp cold water gradually while blending for a creamy texture.",
+        "Taste and adjust salt and lemon.",
+        "Spread in a dish. Make a well in the center.",
+        "Pour olive oil, sprinkle paprika and a few whole chickpeas.",
+        "Serve with pita bread or vegetables."
+      ],
+      "ar": [
+        "صفي الحمص واشطفيه. احتفظي ببعضه للزينة.",
+        "اخلطي الحمص مع الطحينة وعصير ليمونتين والثوم والكمون والملح.",
+        "أضيفي 3-4 معاليق ماء بارد تدريجياً مع الخلط للحصول على قوام كريمي.",
+        "ذوقي وصححي الملح والليمون.",
+        "افردي في طبق. اصنعي حفرة في المنتصف.",
+        "صبي زيت الزيتون ورشي الفلفل الأحمر وبعض حبات الحمص.",
+        "قدمي مع خبز البيتا أو الخضار."
+      ]
+    },
+    "astuces": ["Éplucher les pois chiches un à un pour un houmous ultra soyeux.", "Se conserve 4 jours au frigo couvert de film alimentaire."],
+    "tags": ["international", "entrée", "végétarien", "healthy", "sans cuisson"],
+    "nutrition": {"calories": 220, "healthy": true, "light": true},
+    "temps_prep": 10, "temps_cuisson": 0, "difficulte": "facile", "nb_personnes": 4
+  },
+  {
+    "id": "brownies",
+    "name": { "fr": "Brownies au chocolat", "en": "Chocolate Brownies", "ar": "براونيز بالشوكولا" },
+    "aliases": ["brownie", "brownies", "براونيز"],
+    "ingredients": [
+      {"nom": "chocolat noir", "quantite": 200, "unite": "g"},
+      {"nom": "beurre", "quantite": 120, "unite": "g"},
+      {"nom": "sucre", "quantite": 200, "unite": "g"},
+      {"nom": "oeufs", "quantite": 3, "unite": "pièces"},
+      {"nom": "farine", "quantite": 100, "unite": "g"},
+      {"nom": "cacao non sucré", "quantite": 2, "unite": "c.à.s"},
+      {"nom": "sel", "quantite": 1, "unite": "pincée"},
+      {"nom": "noix ou amandes (optionnel)", "quantite": 50, "unite": "g"}
+    ],
+    "ingredients_simple": ["chocolat noir", "beurre", "sucre", "oeufs", "farine", "cacao", "sel"],
+    "steps": {
+      "fr": [
+        "Préchauffer le four à 175°C. Faire fondre le chocolat et le beurre au bain-marie.",
+        "Ajouter le sucre et mélanger. Incorporer les oeufs un à un.",
+        "Ajouter la farine, le cacao et le sel. Ne pas trop mélanger.",
+        "Optionnel : ajouter les noix concassées.",
+        "Verser dans un moule carré beurré (20x20 cm).",
+        "Enfourner 20 à 22 min. Le centre doit rester légèrement tremblotant.",
+        "Laisser refroidir complètement avant de couper en carrés."
+      ],
+      "en": [
+        "Preheat oven to 175°C. Melt chocolate and butter in a double boiler.",
+        "Add sugar and mix. Incorporate eggs one by one.",
+        "Add flour, cocoa and salt. Don't over-mix.",
+        "Optional: add crushed nuts.",
+        "Pour into a buttered square pan (20x20cm).",
+        "Bake 20-22 min. Center should remain slightly jiggly.",
+        "Let cool completely before cutting into squares."
+      ],
+      "ar": [
+        "سخني الفرن 175 درجة. أذيبي الشوكولا والزبدة على حمام مائي.",
+        "أضيفي السكر وحركي. أضيفي البيض واحدة تلو الأخرى.",
+        "أضيفي الدقيق والكاكاو والملح. لا تخلطي كثيراً.",
+        "اختياري: أضيفي المكسرات المكسرة.",
+        "صبي في قالب مربع مدهون (20x20 سم).",
+        "اخبزي 20-22 دقيقة. يجب أن يبقى المنتصف يرتجف قليلاً.",
+        "اتركي تبرد تماماً قبل التقطيع مربعات."
+      ]
+    },
+    "astuces": ["La clé d'un bon brownie : ne pas trop cuire.", "Ajouter une cuillère de café soluble pour intensifier le goût du chocolat."],
+    "tags": ["international", "dessert", "pâtisserie", "chocolat"],
+    "nutrition": {"calories": 380, "healthy": false, "light": false},
+    "temps_prep": 15, "temps_cuisson": 22, "difficulte": "facile", "nb_personnes": 9
+  },
+  {
+    "id": "smoothie-banane",
+    "name": { "fr": "Smoothie banane-fraise", "en": "Banana Strawberry Smoothie", "ar": "سموزي موز وفراولة" },
+    "aliases": ["smoothie", "jus banane", "سموزي", "jus fraise"],
+    "ingredients": [
+      {"nom": "bananes", "quantite": 2, "unite": "pièces"},
+      {"nom": "fraises", "quantite": 150, "unite": "g"},
+      {"nom": "lait ou yaourt", "quantite": 200, "unite": "ml"},
+      {"nom": "miel", "quantite": 1, "unite": "c.à.s"},
+      {"nom": "glaçons", "quantite": 4, "unite": "pièces"}
+    ],
+    "ingredients_simple": ["bananes", "fraises", "lait", "miel", "glaçons"],
+    "steps": {
+      "fr": [
+        "Éplucher les bananes et les couper en morceaux.",
+        "Laver les fraises et enlever les queues.",
+        "Mettre tous les ingrédients dans le blender.",
+        "Mixer jusqu'à consistance lisse et crémeuse.",
+        "Servir immédiatement dans des verres."
+      ],
+      "en": [
+        "Peel bananas and cut into pieces.",
+        "Wash strawberries and remove stems.",
+        "Put all ingredients in the blender.",
+        "Blend until smooth and creamy.",
+        "Serve immediately in glasses."
+      ],
+      "ar": [
+        "قشري الموز وقطعيه قطعاً.",
+        "اغسلي الفراولة وأزيلي السيقان.",
+        "ضعي جميع المكونات في الخلاط.",
+        "اخلطي حتى يصبح ناعماً وكريمياً.",
+        "قدمي فوراً في كؤوس."
+      ]
+    },
+    "astuces": ["Utiliser des bananes congelées pour un smoothie plus épais.", "Ajouter des épinards frais pour un smoothie vert nutritif."],
+    "tags": ["international", "boisson", "healthy", "light", "rapide", "végétarien"],
+    "nutrition": {"calories": 180, "healthy": true, "light": true},
+    "temps_prep": 5, "temps_cuisson": 0, "difficulte": "facile", "nb_personnes": 2
+  },
+  {
+    "id": "salade-grecque",
+    "name": { "fr": "Salade grecque", "en": "Greek Salad", "ar": "سلطة يونانية" },
+    "aliases": ["salade grecque", "greek salad", "سلطة يونانية"],
+    "ingredients": [
+      {"nom": "tomates", "quantite": 3, "unite": "pièces"},
+      {"nom": "concombre", "quantite": 1, "unite": "pièce"},
+      {"nom": "feta", "quantite": 150, "unite": "g"},
+      {"nom": "olives noires", "quantite": 60, "unite": "g"},
+      {"nom": "oignon rouge", "quantite": 0.5, "unite": "pièce"},
+      {"nom": "poivron vert", "quantite": 1, "unite": "pièce"},
+      {"nom": "huile d'olive", "quantite": 3, "unite": "c.à.s"},
+      {"nom": "vinaigre", "quantite": 1, "unite": "c.à.s"},
+      {"nom": "origan séché", "quantite": 1, "unite": "c.à.c"},
+      {"nom": "sel", "quantite": 0.5, "unite": "c.à.c"}
+    ],
+    "ingredients_simple": ["tomates", "concombre", "feta", "olives", "oignon", "poivron", "huile d'olive", "vinaigre", "origan"],
+    "steps": {
+      "fr": [
+        "Couper les tomates en quartiers, le concombre en rondelles épaisses.",
+        "Émincer l'oignon rouge en fines rondelles, couper le poivron en lanières.",
+        "Assembler tous les légumes dans un grand bol.",
+        "Ajouter les olives et la feta émiettée ou en cube.",
+        "Préparer la vinaigrette : huile, vinaigre, origan, sel. Mélanger.",
+        "Verser sur la salade. Mélanger légèrement et servir frais."
+      ],
+      "en": [
+        "Cut tomatoes into wedges, cucumber into thick rounds.",
+        "Thinly slice red onion, cut pepper into strips.",
+        "Combine all vegetables in a large bowl.",
+        "Add olives and crumbled or cubed feta.",
+        "Prepare dressing: oil, vinegar, oregano, salt. Mix.",
+        "Pour over salad. Toss lightly and serve fresh."
+      ],
+      "ar": [
+        "قطعي الطماطم أرباعاً والخيار حلقات سميكة.",
+        "قطعي البصل الأحمر شرائح رفيعة والفلفل شرائح.",
+        "ضعي جميع الخضار في وعاء كبير.",
+        "أضيفي الزيتون والجبن الفيتا مفتتاً أو مكعبات.",
+        "حضري التتبيلة: زيت، خل، زعتر، ملح. حركي.",
+        "صبي على السلطة. حركي قليلاً وقدمي طازجاً."
+      ]
+    },
+    "astuces": ["Ne pas couper la feta trop finement — elle doit se voir.", "Préparer 30 min à l'avance pour que les saveurs se mélangent."],
+    "tags": ["international", "salade", "végétarien", "healthy", "light", "rapide"],
+    "nutrition": {"calories": 260, "healthy": true, "light": true},
+    "temps_prep": 15, "temps_cuisson": 0, "difficulte": "facile", "nb_personnes": 4
+  },
+  {
+    "id": "pates-arrabiata",
+    "name": { "fr": "Pâtes à l'arrabbiata", "en": "Pasta Arrabbiata", "ar": "باستا أرابياتا" },
+    "aliases": ["arrabiata", "arrabbiata", "pasta arrabiata"],
+    "ingredients": [
+      {"nom": "pâtes", "quantite": 300, "unite": "g"},
+      {"nom": "tomates concassées", "quantite": 400, "unite": "g"},
+      {"nom": "ail", "quantite": 4, "unite": "gousses"},
+      {"nom": "piment rouge", "quantite": 2, "unite": "pièces"},
+      {"nom": "huile d'olive", "quantite": 4, "unite": "c.à.s"},
+      {"nom": "persil", "quantite": 3, "unite": "c.à.s"},
+      {"nom": "sel", "quantite": 1, "unite": "c.à.c"},
+      {"nom": "parmesan râpé", "quantite": 40, "unite": "g"}
+    ],
+    "ingredients_simple": ["pâtes", "tomates", "ail", "piment", "huile d'olive", "persil", "parmesan"],
+    "steps": {
+      "fr": [
+        "Cuire les pâtes al dente dans l'eau bouillante salée.",
+        "Faire chauffer l'huile d'olive dans une grande poêle.",
+        "Faire revenir l'ail émincé et le piment 2 min à feu moyen.",
+        "Ajouter les tomates concassées. Saler et laisser mijoter 15 min.",
+        "Égoutter les pâtes et les ajouter à la sauce.",
+        "Ajouter le persil haché et mélanger. Servir avec le parmesan."
+      ],
+      "en": [
+        "Cook pasta al dente in boiling salted water.",
+        "Heat olive oil in a large pan.",
+        "Sauté sliced garlic and chili for 2 min over medium heat.",
+        "Add crushed tomatoes. Season and simmer 15 min.",
+        "Drain pasta and add to sauce.",
+        "Add chopped parsley and mix. Serve with parmesan."
+      ],
+      "ar": [
+        "اطبخي الباستا al dente في ماء مغلي مملح.",
+        "سخني زيت الزيتون في مقلاة كبيرة.",
+        "قلي الثوم المقطع والفلفل الحار دقيقتين على نار متوسطة.",
+        "أضيفي الطماطم المهروسة. أضيفي الملح واتركي تغلي 15 دقيقة.",
+        "صفي الباستا وأضيفيها للصلصة.",
+        "أضيفي البقدونس المقطع وحركي. قدمي مع البارميزان."
+      ]
+    },
+    "astuces": ["Arrabbiata = 'enragée' en italien, donc mettre pas mal de piment !", "Ajouter des câpres et des olives pour une version plus méditerranéenne."],
+    "tags": ["international", "plat principal", "végétarien", "rapide", "épicé"],
+    "nutrition": {"calories": 480, "healthy": false, "light": false},
+    "temps_prep": 10, "temps_cuisson": 20, "difficulte": "facile", "nb_personnes": 3
+  },
+  {
+    "id": "poulet-curry",
+    "name": { "fr": "Poulet au curry", "en": "Chicken Curry", "ar": "دجاج بالكاري" },
+    "aliases": ["curry poulet", "chicken curry", "كاري دجاج"],
+    "ingredients": [
+      {"nom": "morceaux de poulet", "quantite": 800, "unite": "g"},
+      {"nom": "oignon", "quantite": 2, "unite": "pièces"},
+      {"nom": "ail", "quantite": 4, "unite": "gousses"},
+      {"nom": "gingembre frais", "quantite": 2, "unite": "c.à.c"},
+      {"nom": "tomates concassées", "quantite": 400, "unite": "g"},
+      {"nom": "lait de coco", "quantite": 200, "unite": "ml"},
+      {"nom": "poudre de curry", "quantite": 2, "unite": "c.à.s"},
+      {"nom": "curcuma", "quantite": 1, "unite": "c.à.c"},
+      {"nom": "huile", "quantite": 3, "unite": "c.à.s"},
+      {"nom": "sel", "quantite": 1, "unite": "c.à.c"},
+      {"nom": "coriandre fraîche", "quantite": 3, "unite": "c.à.s"}
+    ],
+    "ingredients_simple": ["poulet", "oignon", "ail", "tomates", "lait de coco", "poudre de curry", "curcuma", "coriandre"],
+    "steps": {
+      "fr": [
+        "Faire dorer le poulet dans l'huile chaude. Réserver.",
+        "Faire revenir l'oignon jusqu'à transparence. Ajouter ail et gingembre.",
+        "Ajouter le curry et le curcuma. Mélanger 1 min.",
+        "Ajouter les tomates et laisser mijoter 10 min.",
+        "Remettre le poulet. Verser le lait de coco. Saler.",
+        "Laisser mijoter 20 min à feu doux.",
+        "Ajouter la coriandre fraîche et servir avec du riz."
+      ],
+      "en": [
+        "Brown chicken in hot oil. Set aside.",
+        "Sauté onion until translucent. Add garlic and ginger.",
+        "Add curry powder and turmeric. Stir 1 min.",
+        "Add tomatoes and simmer 10 min.",
+        "Return chicken. Pour coconut milk. Season.",
+        "Simmer 20 min on low heat.",
+        "Add fresh coriander and serve with rice."
+      ],
+      "ar": [
+        "احمري الدجاج في الزيت الساخن. اتركي جانباً.",
+        "قلي البصل حتى يصبح شفافاً. أضيفي الثوم والزنجبيل.",
+        "أضيفي مسحوق الكاري والكركم. حركي دقيقة.",
+        "أضيفي الطماطم واتركي تغلي 10 دقائق.",
+        "أعيدي الدجاج. صبي حليب جوز الهند. أضيفي الملح.",
+        "اتركي تغلي 20 دقيقة على نار هادئة.",
+        "أضيفي الكزبرة الطازجة وقدمي مع الأرز."
+      ]
+    },
+    "astuces": ["Le lait de coco adoucit le curry — augmenter la quantité pour moins de piquant.", "Utiliser du curry madras pour une version plus puissante."],
+    "tags": ["international", "plat principal", "poulet", "épicé"],
+    "nutrition": {"calories": 480, "healthy": true, "light": false},
+    "temps_prep": 15, "temps_cuisson": 35, "difficulte": "moyen", "nb_personnes": 4
+  },
+  {
+    "id": "salade-tomate-concombre",
+    "name": { "fr": "Salade tomate-concombre", "en": "Tomato cucumber salad", "ar": "سلطة طماطم وخيار" },
+    "aliases": ["salade fraiche", "slata", "سلطة"],
+    "ingredients": [
+      {"nom": "tomates", "quantite": 3, "unite": "pièces"},
+      {"nom": "concombre", "quantite": 1, "unite": "pièce"},
+      {"nom": "oignon", "quantite": 0.5, "unite": "pièce"},
+      {"nom": "persil", "quantite": 2, "unite": "c.à.s"},
+      {"nom": "huile d'olive", "quantite": 2, "unite": "c.à.s"},
+      {"nom": "jus de citron", "quantite": 1, "unite": "c.à.s"},
+      {"nom": "sel", "quantite": 0.5, "unite": "c.à.c"}
+    ],
+    "ingredients_simple": ["tomates", "concombre", "oignon", "persil", "huile d'olive", "citron", "sel"],
+    "steps": {
+      "fr": [
+        "Couper les tomates en dés et le concombre en rondelles ou demi-rondelles.",
+        "Émincer l'oignon finement et hacher le persil.",
+        "Mélanger tous les ingrédients dans un bol.",
+        "Assaisonner avec l'huile d'olive, le jus de citron et le sel.",
+        "Mélanger délicatement et servir frais."
+      ],
+      "en": [
+        "Dice tomatoes and slice cucumber into rounds or half-rounds.",
+        "Finely slice onion and chop parsley.",
+        "Mix all ingredients in a bowl.",
+        "Season with olive oil, lemon juice and salt.",
+        "Toss gently and serve fresh."
+      ],
+      "ar": [
+        "قطعي الطماطم مكعبات والخيار حلقات أو نصف حلقات.",
+        "قطعي البصل ناعماً وقطعي البقدونس.",
+        "اخلطي جميع المكونات في وعاء.",
+        "تبلي بزيت الزيتون وعصير الليمون والملح.",
+        "حركي برفق وقدمي طازجاً."
+      ]
+    },
+    "astuces": ["Préparer juste avant de servir pour éviter que la salade ne rende trop d'eau.", "Ajouter un peu de menthe fraîche pour une touche rafraîchissante."],
+    "tags": ["international", "salade", "végétarien", "healthy", "light", "rapide", "sans cuisson"],
+    "nutrition": {"calories": 120, "healthy": true, "light": true},
+    "temps_prep": 10, "temps_cuisson": 0, "difficulte": "facile", "nb_personnes": 4
+  },
+  {
+    "id": "riz-au-lait",
+    "name": { "fr": "Riz au lait", "en": "Rice Pudding", "ar": "أرز بالحليب" },
+    "aliases": ["riz lait", "rice pudding", "أرز بالحليب"],
+    "ingredients": [
+      {"nom": "riz rond", "quantite": 100, "unite": "g"},
+      {"nom": "lait entier", "quantite": 800, "unite": "ml"},
+      {"nom": "sucre", "quantite": 80, "unite": "g"},
+      {"nom": "eau de fleur d'oranger", "quantite": 2, "unite": "c.à.s"},
+      {"nom": "cannelle", "quantite": 1, "unite": "c.à.c"},
+      {"nom": "sel", "quantite": 1, "unite": "pincée"}
+    ],
+    "ingredients_simple": ["riz", "lait", "sucre", "eau de fleur d'oranger", "cannelle"],
+    "steps": {
+      "fr": [
+        "Rincer le riz à l'eau froide jusqu'à ce que l'eau soit claire.",
+        "Dans une casserole, faire bouillir le lait avec le sucre et une pincée de sel.",
+        "Ajouter le riz et remuer. Baisser le feu.",
+        "Cuire à feu doux 30 à 35 min en remuant fréquemment jusqu'à épaississement.",
+        "Retirer du feu. Ajouter l'eau de fleur d'oranger.",
+        "Verser dans des ramequins. Saupoudrer de cannelle.",
+        "Servir tiède ou réfrigérer 2h pour une version froide."
+      ],
+      "en": [
+        "Rinse rice in cold water until water runs clear.",
+        "In a pot, bring milk to a boil with sugar and a pinch of salt.",
+        "Add rice and stir. Reduce heat.",
+        "Cook on low for 30-35 min stirring frequently until thick.",
+        "Remove from heat. Add orange blossom water.",
+        "Pour into ramekins. Sprinkle with cinnamon.",
+        "Serve warm or refrigerate 2h for a cold version."
+      ],
+      "ar": [
+        "اشطفي الأرز بماء بارد حتى يصفو الماء.",
+        "في قدر، أغلي الحليب مع السكر ورشة ملح.",
+        "أضيفي الأرز وحركي. خففي النار.",
+        "اطبخي على نار هادئة 30-35 دقيقة مع التحريك المتكرر حتى يتكثف.",
+        "أزيلي عن النار. أضيفي ماء الزهر.",
+        "صبي في أطباق. رشي القرفة.",
+        "قدمي دافئاً أو ضعي في الثلاجة ساعتين للنسخة الباردة."
+      ]
+    },
+    "astuces": ["Remuer constamment les dernières minutes pour éviter que ça accroche.", "Ajouter des zestes de citron pour un goût plus frais."],
+    "tags": ["international", "dessert", "végétarien", "économique"],
+    "nutrition": {"calories": 280, "healthy": false, "light": false},
+    "temps_prep": 5, "temps_cuisson": 35, "difficulte": "facile", "nb_personnes": 4
+  },
+  {
+    "id": "pain-perdu",
+    "name": { "fr": "Pain perdu (French toast)", "en": "French Toast", "ar": "خبز مفقود" },
+    "aliases": ["pain perdu", "french toast", "كريب خبز"],
+    "ingredients": [
+      {"nom": "pain de mie ou baguette rassis", "quantite": 4, "unite": "tranches"},
+      {"nom": "oeufs", "quantite": 2, "unite": "pièces"},
+      {"nom": "lait", "quantite": 100, "unite": "ml"},
+      {"nom": "sucre", "quantite": 2, "unite": "c.à.s"},
+      {"nom": "extrait de vanille", "quantite": 0.5, "unite": "c.à.c"},
+      {"nom": "beurre", "quantite": 20, "unite": "g"},
+      {"nom": "cannelle", "quantite": 0.5, "unite": "c.à.c"}
+    ],
+    "ingredients_simple": ["pain", "oeufs", "lait", "sucre", "vanille", "beurre", "cannelle"],
+    "steps": {
+      "fr": [
+        "Battre les oeufs avec le lait, le sucre, la vanille et la cannelle.",
+        "Tremper les tranches de pain dans ce mélange 30 secondes de chaque côté.",
+        "Faire fondre le beurre dans une poêle à feu moyen.",
+        "Cuire les tranches de pain 2 à 3 min de chaque côté jusqu'à dorure.",
+        "Servir chaud avec du miel, du sucre glace ou de la confiture."
+      ],
+      "en": [
+        "Beat eggs with milk, sugar, vanilla and cinnamon.",
+        "Dip bread slices in mixture for 30 seconds each side.",
+        "Melt butter in a pan over medium heat.",
+        "Cook bread slices 2-3 min each side until golden.",
+        "Serve hot with honey, powdered sugar or jam."
+      ],
+      "ar": [
+        "اخفقي البيض مع الحليب والسكر والفانيليا والقرفة.",
+        "اغمسي شرائح الخبز في الخليط 30 ثانية من كل جهة.",
+        "أذيبي الزبدة في مقلاة على نار متوسطة.",
+        "اطبخي شرائح الخبز 2-3 دقائق من كل جهة حتى تذهب.",
+        "قدمي ساخنة مع العسل أو سكر البودرة أو المربى."
+      ]
+    },
+    "astuces": ["Idéal pour utiliser du pain rassis.", "Ajouter du miel et de la cannelle au dessus pour un maximum de saveur."],
+    "tags": ["international", "petit déjeuner", "dessert", "rapide", "économique"],
+    "nutrition": {"calories": 320, "healthy": false, "light": false},
+    "temps_prep": 5, "temps_cuisson": 10, "difficulte": "facile", "nb_personnes": 2
+  }
 ]
