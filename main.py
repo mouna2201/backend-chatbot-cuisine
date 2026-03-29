@@ -1,10 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-import chromadb
 import json
 import os
-from sentence_transformers import SentenceTransformer
 from langdetect import detect
 
 from logique_chatbot_smart import (
@@ -13,8 +11,31 @@ from logique_chatbot_smart import (
     filtrer_par_calories,
     normaliser_tounsi
 )
-from dictionary_data import INGREDIENT_TRANSLATIONS, UNIT_TRANSLATIONS, TOUNSI_TO_FR, TOUNSI_PATTERNS, UI_LABELS, STEP_TRANSLATIONS_FR_AR
-import re
+
+from dictionary_data import (
+    INGREDIENT_TRANSLATIONS,
+    UNIT_TRANSLATIONS,
+    UI_LABELS,
+    STEP_TRANSLATIONS_FR_AR
+)
+
+app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# Variables globales chargées plus tard
+model = None
+client = None
+collection = None
+toutes_recettes = []
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+RECETTES_PATH = os.path.join(BASE_DIR, "data", "recettes.json")
 
 def contains_arabic(text: str) -> bool:
     return any('\u0600' <= c <= '\u06FF' for c in str(text))
@@ -71,69 +92,6 @@ def formatter_element_ingredient(ing, langue):
         return " ".join(parts)
 
     return traduire_ingredient(ing, langue)
-
-def nettoyer_message(message: str) -> str:
-    msg = message.lower().strip()
-
-    replacements = {
-        "é": "e",
-        "è": "e",
-        "ê": "e",
-        "à": "a",
-        "â": "a",
-        "î": "i",
-        "ï": "i",
-        "ô": "o",
-        "ù": "u",
-        "û": "u",
-        "ç": "c",
-        "'": "'"
-    }
-
-    for a, b in replacements.items():
-        msg = msg.replace(a, b)
-
-    msg = re.sub(r"\s+", " ", msg)
-    return msg
-
-def normaliser_tounsi(message: str) -> str:
-    msg = nettoyer_message(message)
-
-    for pattern, replacement in TOUNSI_PATTERNS.items():
-        msg = re.sub(pattern, replacement, msg)
-
-    words = msg.split()
-    normalized_words = []
-
-    for w in words:
-        normalized_words.append(TOUNSI_TO_FR.get(w, w))
-
-    return " ".join(normalized_words)
-
-app = FastAPI()
-
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-print("Chargement du modèle d'embedding...")
-model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
-
-print("Connexion à Chroma...")
-client = chromadb.PersistentClient(path="./chroma_db")
-collection = client.get_or_create_collection("recettes")
-
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-RECETTES_PATH = os.path.join(BASE_DIR, "data", "recettes.json")
-
-print("Chemin du fichier recettes :", RECETTES_PATH)
-
-with open(RECETTES_PATH, encoding="utf-8") as f:
-    toutes_recettes = json.load(f)
-
 
 def extraire_ingredients(recette):
     if "ingredients_simple" in recette:
@@ -356,13 +314,27 @@ def home():
     return {"status": "Chatbot cuisine en ligne !"}
 
 
-@app.get("/recettes")
-def liste_recettes():
-    return {"recettes": toutes_recettes}
-
-
-@app.post("/chat")
 def chat(req: MessageRequest):
+    # Sécurité : vérifier que les données sont chargées
+    if not toutes_recettes:
+        return {
+            "reponse": "Les recettes ne sont pas encore chargées.",
+            "langue": "fr",
+            "mode": "erreur",
+            "recettes_trouvees": [],
+            "liste_courses": []
+        }
+
+    # Sécurité : vérifier que le modèle et la collection sont disponibles
+    if model is None or collection is None:
+        return {
+            "reponse": "Le modèle ou la collection n'est pas disponible.",
+            "langue": "fr",
+            "mode": "erreur",
+            "recettes_trouvees": [],
+            "liste_courses": []
+        }
+
     tous_ingredients = req.ingredients_frigo + req.ingredients_placard
     message_normalise = normaliser_tounsi(req.message)
     ingredients_normalises = [normaliser_tounsi(x) for x in tous_ingredients]
@@ -418,7 +390,7 @@ def chat(req: MessageRequest):
 
     if not recettes_scorees:
         return {
-            "reponse": "Aucune recette adaptée n’a été trouvée avec les ingrédients disponibles.",
+            "reponse": "Aucune recette adaptée n'a été trouvée avec les ingrédients disponibles.",
             "langue": langue,
             "mode": "aucun_resultat",
             "recettes_trouvees": [],
@@ -436,9 +408,7 @@ def chat(req: MessageRequest):
 
     tous_manquants = []
     for _, _, _, manquants in recettes_a_afficher:
-        for ing in manquants:
-            if ing not in tous_manquants:
-                tous_manquants.append(ing)
+        tous_manquants.update(manquants)
 
     return {
         "reponse": reponse,
@@ -446,5 +416,37 @@ def chat(req: MessageRequest):
         "mode": "suggestion_generale",
         "intention": intention,
         "recettes_trouvees": [r[0]["id"] for r in recettes_a_afficher],
-        "liste_courses": tous_manquants
+        "liste_courses": list(tous_manquants)
     }
+
+
+@app.on_event("startup")
+def startup_event():
+    global model, client, collection, toutes_recettes
+
+    print("Démarrage de l'application...")
+
+    # Charger JSON
+    with open(RECETTES_PATH, encoding="utf-8") as f:
+        toutes_recettes = json.load(f)
+
+    print("Recettes chargées.")
+
+    # Charger Chroma
+    try:
+        import chromadb
+        client = chromadb.PersistentClient(path="./chroma_db")
+        collection = client.get_or_create_collection("recettes")
+        print("Chroma chargé.")
+    except Exception as e:
+        print("Erreur Chroma :", e)
+        collection = None
+
+    # Charger modèle d'embedding
+    try:
+        from sentence_transformers import SentenceTransformer
+        model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
+        print("Modèle chargé.")
+    except Exception as e:
+        print("Erreur modèle :", e)
+        model = None
