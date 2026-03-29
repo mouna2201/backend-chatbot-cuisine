@@ -314,6 +314,7 @@ def home():
     return {"status": "Chatbot cuisine en ligne !"}
 
 
+@app.post("/chat")
 def chat(req: MessageRequest):
     # Sécurité : vérifier que les données sont chargées
     if not toutes_recettes:
@@ -422,31 +423,15 @@ def chat(req: MessageRequest):
 
 @app.on_event("startup")
 def startup_event():
-    global model, client, collection, toutes_recettes
+    global toutes_recettes
 
-    print("Démarrage de l'application...")
+    print("Démarrage...")
 
-    # Charger JSON
-    with open(RECETTES_PATH, encoding="utf-8") as f:
-        toutes_recettes = json.load(f)
-
-    print("Recettes chargées.")
-
-    # Charger Chroma
     try:
-        import chromadb
-        client = chromadb.PersistentClient(path="./chroma_db")
-        collection = client.get_or_create_collection("recettes")
-        print("Chroma chargé.")
+        with open(RECETTES_PATH, encoding="utf-8") as f:
+            toutes_recettes = json.load(f)
+        print("Recettes chargées ")
     except Exception as e:
-        print("Erreur Chroma :", e)
-        collection = None
+        print("Erreur chargement recettes:", e)
 
-    # Charger modèle d'embedding
-    try:
-        from sentence_transformers import SentenceTransformer
-        model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
-        print("Modèle chargé.")
-    except Exception as e:
-        print("Erreur modèle :", e)
-        model = None
+    print("Startup terminé ")
