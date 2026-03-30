@@ -402,7 +402,9 @@ def chat(req: MessageRequest):
             "langue": langue,
             "mode": "recette_precise",
             "recettes_trouvees": [recette_demandee["id"]],
-            "liste_courses": [traduire_ingredient(x, langue) for x in manquants]
+            "liste_courses": [traduire_ingredient(x, langue) for x in manquants],
+            "photo_url": recette_demandee.get("photo_url", ""),
+            "recette_nom": recette_demandee["name"].get(langue, "")
         }
 
     # 2) intention
