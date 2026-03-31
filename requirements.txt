@@ -4,3 +4,5 @@ chromadb
 sentence-transformers
 langdetect
 pydantic
+pymongo[srv]
+dnspython

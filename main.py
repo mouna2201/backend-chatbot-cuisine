@@ -5,6 +5,15 @@ import json
 import os
 from langdetect import detect
 
+from database import (
+    get_db,
+    sauvegarder_conversation,
+    sauvegarder_notation,
+    charger_historique,
+    charger_notations,
+    supprimer_notation
+)
+
 from logique_chatbot_smart import (
     analyser_intention,
     filtrer_par_intention,
@@ -55,6 +64,9 @@ def startup_event():
     except Exception as e:
         print("Erreur chargement recettes:", e)
         toutes_recettes = []
+
+    # Initialiser MongoDB
+    get_db()
 
     print("Startup terminé 🚀")
 
@@ -397,6 +409,17 @@ def chat(req: MessageRequest):
             langue
         )
 
+        # Sauvegarder conversation
+        sauvegarder_conversation(
+            user_id=req.user_id if hasattr(req, 'user_id') else "anonymous",
+            message=req.message,
+            reponse=reponse,
+            langue=langue,
+            recettes_ids=[recette_demandee["id"]],
+            liste_courses=[traduire_ingredient(x, langue) for x in manquants],
+            ingredients=tous_ingredients,
+        )
+
         return {
             "reponse": reponse,
             "langue": langue,
@@ -455,6 +478,17 @@ def chat(req: MessageRequest):
             traduit = traduire_ingredient(ing, langue)
             if traduit not in tous_manquants:
                 tous_manquants.append(traduit)
+
+    # Sauvegarder conversation
+    sauvegarder_conversation(
+        user_id=req.user_id if hasattr(req, 'user_id') else "anonymous",
+        message=req.message,
+        reponse=reponse,
+        langue=langue,
+        recettes_ids=[r[0]["id"] for r in recettes_a_afficher],
+        liste_courses=tous_manquants,
+        ingredients=tous_ingredients,
+    )
 
     return {
         "reponse": reponse,
